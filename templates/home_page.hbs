@@ -163,7 +163,7 @@
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
 
       {{#if settings.tile_1_title}}
-        <a href="{{settings.tile_1_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+        <a href="{{settings.tile_1_url}}" class="mx-auto object-contain max-image-size" target="_blank">
           {{#if settings.tile_1}}
             <img src="{{settings.tile_1}}" alt="" class="w-full h-48 object-contain">
           {{/if}}
