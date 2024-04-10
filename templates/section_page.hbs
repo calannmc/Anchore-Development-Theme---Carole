@@ -66,7 +66,7 @@
   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4"> <!-- Adjust the column count as needed -->
     {{!-- Iterate through articles in this section --}}
     {{#each section.articles}}
-      <div class="article-card"> <!-- Use article-card for styling -->
+      <div class="article-card transform transition duration-300 ease-in-out shadow-sm hover:scale-105 hover:shadow-lg hover:border-transparent rounded-lg"> <!-- Use article-card for styling -->
         <a href="{{url}}" class="section-item-bullet">
           {{this.title}}
         </a>
