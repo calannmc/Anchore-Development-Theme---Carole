@@ -1,7 +1,7 @@
 <style>
   .article-card {
-    background-color: #fff; /* Adjust based on your theme */
-    border-radius: 8px;
+    background-color: {{settings.brand_color_softwhite}};
+    border-radius: 22px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: box-shadow 0.3s ease-in-out;
     padding: 20px;
@@ -9,7 +9,7 @@
   }
 
   .article-card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px {{settings.brand_color_purewhite}};
   }
 
 
@@ -20,9 +20,7 @@
     border: 1px solid {{settings.brand_color_slategrey}};
   }
 
-  .article-section:hover {
-    background-color:{{settings.brand_color_purewhite}};
-  }
+ 
 </style>
 <section class="anchore-bg p-12">
   <div class="container mx-auto flex flex-wrap items-center">
@@ -64,7 +62,7 @@
   {{/if}}
 {{#if section.articles}}
 <section id="{{section.id}}" class="article-section">
-  <h2 class="section-subtitle">{{section.name}}</h2>
+  <!--<h2 class="section-subtitle">{{section.name}}</h2>-->
   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4"> <!-- Adjust the column count as needed -->
     {{!-- Iterate through articles in this section --}}
     {{#each section.articles}}
