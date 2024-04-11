@@ -299,7 +299,72 @@
           </div>
         </a>
       {{/if}}
-
+      {{#if settings.tile_7_title}}
+        <a href="{{settings.tile_7_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_7}}
+            <img src="{{settings.tile_7}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_7_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_7_description}}</p>
+          </div>
+        </a>
+      {{/if}}
+      {{#if settings.tile_8_title}}
+        <a href="{{settings.tile_8_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_8}}
+            <img src="{{settings.tile_8}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_8_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_8_description}}</p>
+          </div>
+        </a>
+      {{/if}}
+      {{#if settings.tile_9_title}}
+        <a href="{{settings.tile_9_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_9}}
+            <img src="{{settings.tile_9}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_9_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_9_description}}</p>
+          </div>
+        </a>
+      {{/if}}
+      {{#if settings.tile_10_title}}
+        <a href="{{settings.tile_10_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_10}}
+            <img src="{{settings.tile_10}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_10_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_10_description}}</p>
+          </div>
+        </a>
+      {{/if}}
+      {{#if settings.tile_11_title}}
+        <a href="{{settings.tile_11_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_11}}
+            <img src="{{settings.tile_11}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_11_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_11_description}}</p>
+          </div>
+        </a>
+      {{/if}}
+      {{#if settings.tile_12_title}}
+        <a href="{{settings.tile_12_url}}" class="card bg-white rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl" target="_blank">
+          {{#if settings.tile_12}}
+            <img src="{{settings.tile_12}}" alt="" class="w-full h-36 md:h-48 object-cover">
+          {{/if}}
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">{{settings.tile_12_title}}</h3>
+            <p class="text-gray-700 text-base">{{settings.tile_12_description}}</p>
+          </div>
+        </a>
+      {{/if}}
     </div>
   </div>
 </section>
@@ -333,7 +398,34 @@
         {{#is @index 6}}
           <img src="{{../settings.category_card_icon_7}}" class="mx-auto object-contain max-image-size" />
         {{/is}}
-
+        {{#is @index 7}}
+          <img src="{{../settings.category_card_icon_8}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 8}}
+          <img src="{{../settings.category_card_icon_9}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 9}}
+          <img src="{{../settings.category_card_icon_10}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 10}}
+          <img src="{{../settings.category_card_icon_11}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 11}}
+          <img src="{{../settings.category_card_icon_12}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 12}}
+          <img src="{{../settings.category_card_icon_13}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 13}}
+          <img src="{{../settings.category_card_icon_14}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        {{#is @index 14}}
+          <img src="{{../settings.category_card_icon_15}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+         {{#is @index 15}}
+          <img src="{{../settings.category_card_icon_16}}" class="mx-auto object-contain max-image-size" />
+        {{/is}}
+        <!-- Add more conditions for other indices if needed -->
       </div>
       <span class="text-title">{{this.name}}</span>
           <p class="card-text-description line-clamp-2">{{this.description}}</p>

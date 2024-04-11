@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - Carole 11.04",
   "author": "Zendesk",
-  "version": "5.2.9",
+  "version": "5.2.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -323,8 +323,169 @@
           "description": "URL for the sixth tile",
           "label": "Tile 6 URL",
           "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_7",
+          "type": "file",
+          "description": "Icon for the seventh tile",
+          "label": "Tile 7"
+        },
+        {
+          "identifier": "tile_7_title",
+          "type": "text",
+          "description": "Title for the seventh tile",
+          "label": "Tile 7 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_7_description",
+          "type": "text",
+          "description": "Description for the seventh tile",
+          "label": "Tile 7 Description",
+          "value": "Description for the seventh tile"
+        },
+        {
+          "identifier": "tile_7_url",
+          "type": "text",
+          "description": "URL for the seventh tile",
+          "label": "Tile 7 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_8",
+          "type": "file",
+          "description": "Icon for the eighth tile",
+          "label": "Tile 8"
+        },
+        {
+          "identifier": "tile_8_title",
+          "type": "text",
+          "description": "Title for the eighth tile",
+          "label": "Tile 8 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_8_description",
+          "type": "text",
+          "description": "Description for the eighth tile",
+          "label": "Tile 8 Description",
+          "value": "Description for the eighth tile"
+        },
+        {
+          "identifier": "tile_8_url",
+          "type": "text",
+          "description": "URL for the eighth tile",
+          "label": "Tile 8 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_9",
+          "type": "file",
+          "description": "Icon for the ninth tile",
+          "label": "Tile 9"
+        },
+        {
+          "identifier": "tile_9_title",
+          "type": "text",
+          "description": "Title for the ninth tile",
+          "label": "Tile 9 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_9_description",
+          "type": "text",
+          "description": "Description for the ninth tile",
+          "label": "Tile 9 Description",
+          "value": "Description for the ninth tile"
+        },
+        {
+          "identifier": "tile_9_url",
+          "type": "text",
+          "description": "URL for the ninth tile",
+          "label": "Tile 9 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_10",
+          "type": "file",
+          "description": "Icon for the tenth tile",
+          "label": "Tile 10"
+        },
+        {
+          "identifier": "tile_10_title",
+          "type": "text",
+          "description": "Title for the tenth tile",
+          "label": "Tile 10 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_10_description",
+          "type": "text",
+          "description": "Description for the tenth tile",
+          "label": "Tile 10 Description",
+          "value": "Description for the tenth tile"
+        },
+        {
+          "identifier": "tile_10_url",
+          "type": "text",
+          "description": "URL for the tenth tile",
+          "label": "Tile 10 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_11",
+          "type": "file",
+          "description": "Icon for the eleventh tile",
+          "label": "Tile 11"
+        },
+        {
+          "identifier": "tile_11_title",
+          "type": "text",
+          "description": "Title for the eleventh tile",
+          "label": "Tile 11 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_11_description",
+          "type": "text",
+          "description": "Description for the eleventh tile",
+          "label": "Tile 11 Description",
+          "value": "Description for the eleventh tile"
+        },
+        {
+          "identifier": "tile_11_url",
+          "type": "text",
+          "description": "URL for the eleventh tile",
+          "label": "Tile 11 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "tile_12",
+          "type": "file",
+          "description": "Icon for the twelfth tile",
+          "label": "Tile 12"
+        },
+        {
+          "identifier": "tile_12_title",
+          "type": "text",
+          "description": "Title for the twelfth tile",
+          "label": "Tile 12 Title",
+          "value": ""
+        },
+        {
+          "identifier": "tile_12_description",
+          "type": "text",
+          "description": "Description for the twelfth tile",
+          "label": "Tile 12 Description",
+          "value": "Description for the twelfth tile"
+        },
+        {
+          "identifier": "tile_12_url",
+          "type": "text",
+          "description": "URL for the twelfth tile",
+          "label": "Tile 12 URL",
+          "value": "https://www.zendesk.com"
         }
-
       ]
     },
     {
@@ -408,7 +569,136 @@
           "label": "Category sixth name",
           "value": "380GW"
         },
-        
+        {
+          "identifier": "category_card_icon_7",
+          "type": "file",
+          "description": "Icon for the seveth category card",
+          "label": "Card_Icon_7"
+        },
+        {
+          "identifier": "category_card_7_name",
+          "type": "text",
+          "description": "Name for category 7",
+          "label": "Category seveth name",
+          "value": "322GW"
+        },
+        {
+          "identifier": "category_card_icon_8",
+          "type": "file",
+          "description": "Icon for the eighth category card",
+          "label": "Card_Icon_8"
+        },
+        {
+          "identifier": "category_card_8_name",
+          "type": "text",
+          "description": "Name for category 8",
+          "label": "Category eighth name",
+          "value": "320XR"
+        },
+        {
+          "identifier": "category_card_icon_9",
+          "type": "file",
+          "description": "Icon for the nine category card",
+          "label": "Card_Icon_9"
+        },
+        {
+          "identifier": "category_card_9_name",
+          "type": "text",
+          "description": "Name for category 9",
+          "label": "Category nine name",
+          "value": "300W"
+        },
+        {
+          "identifier": "category_card_icon_10",
+          "type": "file",
+          "description": "Icon for the ten category card",
+          "label": "Card_Icon_10"
+        },
+        {
+          "identifier": "category_card_10_name",
+          "type": "text",
+          "description": "Name for category 10",
+          "label": "Category ten name",
+          "value": "222G"
+        },
+        {
+          "identifier": "category_card_icon_11",
+          "type": "file",
+          "description": "Icon for the 11 category card",
+          "label": "Card_Icon_11"
+        },
+        {
+          "identifier": "category_card_11_name",
+          "type": "text",
+          "description": "Name for category 11",
+          "label": "Category 11 name",
+          "value": "222X"
+        },
+        {
+          "identifier": "category_card_icon_12",
+          "type": "file",
+          "description": "Icon for the 12 category card",
+          "label": "Card_Icon_12"
+        },
+        {
+          "identifier": "category_card_12_name",
+          "type": "text",
+          "description": "Name for category 12",
+          "label": "Category 12 name",
+          "value": "222XR"
+        },
+        {
+          "identifier": "category_card_icon_13",
+          "type": "file",
+          "description": "Icon for the 13 category card",
+          "label": "Card_Icon_13"
+        },
+        {
+          "identifier": "category_card_13_name",
+          "type": "text",
+          "description": "Name for category 13",
+          "label": "Category 13 name",
+          "value": "222"
+        },
+        {
+          "identifier": "category_card_icon_14",
+          "type": "file",
+          "description": "Icon for the 14 category card",
+          "label": "Card_Icon_14"
+        },
+        {
+          "identifier": "category_card_14_name",
+          "type": "text",
+          "description": "Name for category 14",
+          "label": "Category 14 name",
+          "value": "122HD"
+        },
+        {
+          "identifier": "category_card_icon_15",
+          "type": "file",
+          "description": "Icon for the 15 category card",
+          "label": "Card_Icon_15"
+        },
+        {
+          "identifier": "category_card_15_name",
+          "type": "text",
+          "description": "Name for category 15",
+          "label": "Category 15 name",
+          "value": "122"
+        },
+        {
+          "identifier": "category_card_icon_16",
+          "type": "file",
+          "description": "Icon for the 16 category card",
+          "label": "Card_Icon_16"
+        },
+        {
+          "identifier": "category_card_16_name",
+          "type": "text",
+          "description": "Name for category 16",
+          "label": "Category 16 name",
+          "value": "Product not listed"
+        },
         {
           "identifier": "popular_articles_text",
           "type": "text",
@@ -786,8 +1076,63 @@
             {
               "label": "Arial",
               "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
-          
           ]
         },
         {
@@ -804,497 +1149,69 @@
             {
               "label": "Poppins",
               "value": "'Poppins', sans-serif"
+            },
+            {
+              "label": "Arial",
+              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
-          
           ]
         }
-      ]
-    },
-    {
-      "label": "Footer Settings",
-      "variables": [
-        {
-          "identifier": "footer_icon_1",
-          "type": "file",
-          "description": "Icon for the footer social",
-          "label": "footer icon 1"
-        },
-        {
-          "identifier": "footer_icon_1_text",
-          "type": "text",
-          "description": "social icon 1 link",
-          "label": "social icon 1 link",
-          "value": "https://www.linkedin.com/company/anchore/"
-        },
-        {
-          "identifier": "footer_icon_2",
-          "type": "file",
-          "description": "Icon for the footer social",
-          "label": "footer icon 2"
-        },
-        {
-          "identifier": "footer_icon_2_text",
-          "type": "text",
-          "description": "social icon 2 link",
-          "label": "social icon 2 link",
-          "value": "https://www.facebook.com/anchore/"
-        },
-        {
-          "identifier": "footer_icon_3",
-          "type": "file",
-          "description": "Icon for the footer social",
-          "label": "footer icon 3"
-        },
-        {
-          "identifier": "footer_icon_3_text",
-          "type": "text",
-          "description": "social icon 3 link",
-          "label": "social icon 3 link",
-          "value": "https://twitter.com/anchore"
-        },
-        {
-          "identifier": "footer_icon_4",
-          "type": "file",
-          "description": "Icon for the footer social",
-          "label": "footer icon 4"
-        },
-        {
-          "identifier": "footer_icon_4_text",
-          "type": "text",
-          "description": "social icon 4 link",
-          "label": "social icon 2 link",
-          "value": "https://www.youtube.com/channel/UC3HczVqyiAqz1aNxBIMS3pQ"
-        },
-
-      {
-          "identifier": "footer_heading_1",
-          "type": "text",
-          "description": "First column heading.",
-          "label": "Footer Heading 1",
-          "value": "PLATFORM"
-        },
-        {
-          "identifier": "footer_link_text_1_1",
-          "type": "text",
-          "description": "Text for the first link in the first column.",
-          "label": "Link Text 1:1",
-          "value": "Anchore Enterprise"
-        },
-        {
-          "identifier": "footer_link_url_1_1",
-          "type": "text",
-          "description": "URL for the first link in the first column.",
-          "label": "Link URL 1:1",
-          "value": "https://anchore.com/platform/enterprises/"
-        },
-        {
-          "identifier": "footer_link_text_1_2",
-          "type": "text",
-          "description": "Text for the second link in the first column.",
-          "label": "Link Text 1:2",
-          "value": "Anchore Federal"
-        },
-        {
-          "identifier": "footer_link_url_1_2",
-          "type": "text",
-          "description": "URL for the second link in the first column.",
-          "label": "Link URL 1:2",
-          "value": "https://anchore.com/platform/public-sector/"
-        },
-        {
-          "identifier": "footer_heading_1_1",
-          "type": "text",
-          "description": "First column heading.",
-          "label": "Footer Heading 1",
-          "value": "FEDERAL"
-        },
-        {
-          "identifier": "footer_link_text_1_1_1",
-          "type": "text",
-          "description": "Text for the first link in the first column.",
-          "label": "Link Text 1:1",
-          "value": "NIST Compliance"
-        },
-        {
-          "identifier": "footer_link_url_1_1_1",
-          "type": "text",
-          "description": "URL for the first link in the first column.",
-          "label": "Link URL 1:1",
-          "value": "https://anchore.com/compliance/nist/"
-        },
-        {
-          "identifier": "footer_link_text_3",
-          "type": "text",
-          "description": "Text for the third link in the first column.",
-          "label": "Link Text 1:3",
-          "value": "Software Factory"
-        },
-        {
-          "identifier": "footer_link_url_3",
-          "type": "text",
-          "description": "URL for the third link in the first column.",
-          "label": "Link URL 1:3",
-          "value": "https://anchore.com/dod-software-factory/"
-        },
-
-        {
-          "identifier": "footer_heading_2",
-          "type": "text",
-          "description": "First column heading.",
-          "label": "Footer Heading 2",
-          "value": "SOLUTIONS"
-        },
-        {
-          "identifier": "footer_link_text_2_1",
-          "type": "text",
-          "description": "Text for the first link in the second column.",
-          "label": "Link Text 2:1",
-          "value": "CI/CD Security"
-        },
-        {
-          "identifier": "footer_link_url_2_1",
-          "type": "text",
-          "description": "URL for the first link in the second column.",
-          "label": "Link URL 2:1",
-          "value": "https://anchore.com/cicd/"
-        },
-        {
-          "identifier": "footer_link_text_2_2",
-          "type": "text",
-          "description": "Text for the second link in the second column.",
-          "label": "Link Text 2:2",
-          "value": "Container Security"
-        },
-        {
-          "identifier": "footer_link_url_2_2",
-          "type": "text",
-          "description": "URL for the second link in the second column.",
-          "label": "Link URL 2:2",
-          "value": "https://anchore.com/container-registry-scanning/"
-        },
-        {
-          "identifier": "footer_link_text_2_3",
-          "type": "text",
-          "description": "Text for the third link in the second column.",
-          "label": "Link Text 2:3",
-          "value": "Container Vulnerability Scanning"
-        },
-        {
-          "identifier": "footer_link_url_2_3",
-          "type": "text",
-          "description": "URL for the third link in the second column.",
-          "label": "Link URL 2:3",
-          "value": "https://anchore.com/container-security/"
-        },
-        {
-          "identifier": "footer_link_text_2_4",
-          "type": "text",
-          "description": "Text for the forth link in the second column.",
-          "label": "Link Text 2:4",
-          "value": "FedRAMP Vulnerability Scanning"
-        },
-        {
-          "identifier": "footer_link_url_2_4",
-          "type": "text",
-          "description": "URL for the forth link in the second column.",
-          "label": "Link URL 2:4",
-          "value": "https://anchore.com/fedramp/"
-        },
-        {
-          "identifier": "footer_link_text_2_5",
-          "type": "text",
-          "description": "Text for the fifth link in the second column.",
-          "label": "Link Text 2:5",
-          "value": "Federal Compliance"
-        },
-        {
-          "identifier": "footer_link_url_2_5",
-          "type": "text",
-          "description": "URL for the fifth link in the second column.",
-          "label": "Link URL 2:5",
-          "value": "https://anchore.com/federal-compliance/"
-        },
-        {
-          "identifier": "footer_heading_3",
-          "type": "text",
-          "description": "Third column heading.",
-          "label": "Footer Heading 3",
-          "value": "RESOURCES"
-        },
-        {
-          "identifier": "footer_link_text_3_1",
-          "type": "text",
-          "description": "Text for the first link in the third column.",
-          "label": "Link Text 3:1",
-          "value": "Blog"
-        },
-        {
-          "identifier": "footer_link_url_3_1",
-          "type": "text",
-          "description": "URL for the first link in the third column.",
-          "label": "Link URL 3:1",
-          "value": "https://anchore.com/blog/"
-        },
-        {
-          "identifier": "footer_link_text_3_2",
-          "type": "text",
-          "description": "Text for the first link in the third column.",
-          "label": "Link Text 3:2",
-          "value": "Docs"
-        },
-        {
-          "identifier": "footer_link_url_3_2",
-          "type": "text",
-          "description": "URL for the first link in the third column.",
-          "label": "Link URL 3:2",
-          "value": "https://docs.anchore.com/current/?_gl=1*qmdmfq*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNDcyNS4xOS4wLjA."
-        },
-        {
-          "identifier": "footer_link_text_3_3",
-          "type": "text",
-          "description": "Text for the second link in the third column.",
-          "label": "Link Text 3:2",
-          "value": "Open Source"
-        },
-        {
-          "identifier": "footer_link_url_3_3",
-          "type": "text",
-          "description": "URL for the second link in the third column.",
-          "label": "Link URL 3:2",
-          "value": "https://anchore.com/opensource/"
-        },
-        {
-          "identifier": "footer_link_text_3_4",
-          "type": "text",
-          "description": "Text for the third link in the third column.",
-          "label": "Link Text 3:3",
-          "value": "Integrations"
-        },
-        {
-          "identifier": "footer_link_url_3_4",
-          "type": "text",
-          "description": "URL for the third link in the third column.",
-          "label": "Link URL 3:3",
-          "value": "https://anchore.com/integrations/"
-        },
-        {
-          "identifier": "footer_link_text_3_5",
-          "type": "text",
-          "description": "Text for the forth link in the third column.",
-          "label": "Link Text 3:4",
-          "value": "Partners"
-        },
-        {
-          "identifier": "footer_link_url_3_5",
-          "type": "text",
-          "description": "URL for the forth link in the third column.",
-          "label": "Link URL 3:4",
-          "value": "https://anchore.com/partners/"
-        },
-        {
-          "identifier": "footer_link_text_3_6",
-          "type": "text",
-          "description": "Text for the fifth link in the third column.",
-          "label": "Link Text 3:5",
-          "value": "Events"
-        },
-        {
-          "identifier": "footer_link_url_3_6",
-          "type": "text",
-          "description": "URL for the fifth link in the third column.",
-          "label": "Link URL 3:5",
-          "value": "https://anchore.com/events/"
-        },
-        {
-          "identifier": "footer_link_text_3_7",
-          "type": "text",
-          "description": "Text for the forth link in the third column.",
-          "label": "Link Text 3:4",
-          "value": "Webinars"
-        },
-        {
-          "identifier": "footer_link_url_3_7",
-          "type": "text",
-          "description": "URL for the forth link in the third column.",
-          "label": "Link URL 3:4",
-          "value": "https://anchore.com/webinars/"
-        },
-        {
-          "identifier": "footer_link_text_3_8",
-          "type": "text",
-          "description": "Text for the fifth link in the third column.",
-          "label": "Link Text 3:5",
-          "value": "Videos"
-        },
-        {
-          "identifier": "footer_link_url_3_8",
-          "type": "text",
-          "description": "URL for the fifth link in the third column.",
-          "label": "Link URL 3:5",
-          "value": "https://anchore.com/videos/"
-        },
-        {
-          "identifier": "footer_heading_4",
-          "type": "text",
-          "description": "Forth column heading.",
-          "label": "Footer Heading 4",
-          "value": "LEARN"
-        },
-        {
-          "identifier": "footer_link_text_4_1",
-          "type": "text",
-          "description": "Text for the first link in the forth column.",
-          "label": "Link Text 4:1",
-          "value": "Compliance"
-        },
-        {
-          "identifier": "footer_link_url_4_1",
-          "type": "text",
-          "description": "URL for the first link in the forth column.",
-          "label": "Link URL 4:1",
-          "value": "https://anchore.com/compliance/"
-        },
-        {
-          "identifier": "footer_link_text_4_2",
-          "type": "text",
-          "description": "Text for the second link in the forth column.",
-          "label": "Link Text 4:2",
-          "value": "DevSecOps"
-        },
-        {
-          "identifier": "footer_link_url_4_2",
-          "type": "text",
-          "description": "URL for the second link in the forth column.",
-          "label": "Link URL 4:2",
-          "value": "https://anchore.com/devsecops/what-is-devsecops/"
-        },
-        {
-          "identifier": "footer_link_text_4_3",
-          "type": "text",
-          "description": "Text for the third link in the forth column.",
-          "label": "Link Text 4:3",
-          "value": "SBOM"
-        },
-        {
-          "identifier": "footer_link_url_4_3",
-          "type": "text",
-          "description": "URL for the third link in the forth column.",
-          "label": "Link URL 4:3",
-          "value": "https://anchore.com/sbom/what-is-an-sbom/"
-        },
-        {
-          "identifier": "footer_link_text_4_4",
-          "type": "text",
-          "description": "Text for the third link in the forth column.",
-          "label": "Link Text 4:3",
-          "value": "Software Supply Chain Security"
-        },
-        {
-          "identifier": "footer_link_url_4_4",
-          "type": "text",
-          "description": "URL for the third link in the forth column.",
-          "label": "Link URL 4:3",
-          "value": "https://anchore.com/software-supply-chain-security/what-is-sscs/"
-        },
-        {
-          "identifier": "footer_heading_5",
-          "type": "text",
-          "description": "Forth column heading.",
-          "label": "Footer Heading 5",
-          "value": "COMPANY"
-        },
-        {
-          "identifier": "footer_link_text_5_1",
-          "type": "text",
-          "description": "Text for the first link in the forth column.",
-          "label": "Link Text 5:1",
-          "value": "About Us"
-        },
-        {
-          "identifier": "footer_link_url_5_1",
-          "type": "text",
-          "description": "URL for the first link in the forth column.",
-          "label": "Link URL 5:1",
-          "value": "https://anchore.com/about-us/"
-        },
-        {
-          "identifier": "footer_link_text_5_2",
-          "type": "text",
-          "description": "Text for the second link in the forth column.",
-          "label": "Link Text 5:2",
-          "value": "Become a Partner"
-        },
-        {
-          "identifier": "footer_link_url_5_2",
-          "type": "text",
-          "description": "URL for the second link in the forth column.",
-          "label": "Link URL 5:2",
-          "value": "https://get.anchore.com/become-a-partner/?_gl=1*1nvhagm*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTY3Ni41Ny4wLjA."
-        },
-        {
-          "identifier": "footer_link_text_5_3",
-          "type": "text",
-          "description": "Text for the third link in the forth column.",
-          "label": "Link Text 5:3",
-          "value": "Careers"
-        },
-        {
-          "identifier": "footer_link_url_5_3",
-          "type": "text",
-          "description": "URL for the third link in the forth column.",
-          "label": "Link URL 4:3",
-          "value": "https://anchore.com/careers/"
-        },
-        {
-          "identifier": "footer_link_text_5_4",
-          "type": "text",
-          "description": "Text for the forth link in the forth column.",
-          "label": "Link text 4:4",
-          "value": "Contact Us"
-        },
-        {
-          "identifier": "footer_link_url_5_4",
-          "type": "text",
-          "description": "URL for the forth link in the forth column.",
-          "label": "Link URL 5:4",
-          "value": "https://get.anchore.com/contact/?_gl=1*1je9y1v*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTExOC4zOS4wLjA."
-        },
-        {
-          "identifier": "footer_link_text_5_5",
-          "type": "text",
-          "description": "Text for the forth link in the forth column.",
-          "label": "Link text 5:5",
-          "value": "Press & News"
-        },
-        {
-          "identifier": "footer_link_url_5_5",
-          "type": "text",
-          "description": "URL for the forth link in the forth column.",
-          "label": "Link URL 5:4",
-          "value": "https://anchore.com/newsroom/"
-        },   {
-          "identifier": "footer_link_text_5_6",
-          "type": "text",
-          "description": "Text for the forth link in the forth column.",
-          "label": "Link text 5:6",
-          "value": "Request a Demo"
-        },
-        {
-          "identifier": "footer_link_url_5_6",
-          "type": "text",
-          "description": "URL for the forth link in the forth column.",
-          "label": "Link URL 5:4",
-          "value": "https://get.anchore.com/demo-request/?_gl=1*7ulzl5*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTgwMC4xNS4wLjA."
-        },
-
-        {
-          "identifier": "copyright_text",
-          "type": "text",
-          "description": "Copyright text.",
-          "label": "Copyright Text",
-          "value": "© Anchore 2021 - 2024. All Rights Reserved."
-        }
-        
       ]
     },
     {
@@ -1321,7 +1238,29 @@
         }
       ]
     },
-
+    {
+      "label": "images_group_label",
+      "variables": [
+        {
+          "identifier": "homepage_background_image",
+          "type": "file",
+          "description": "homepage_background_image_description",
+          "label": "homepage_background_image_label"
+        },
+        {
+          "identifier": "community_background_image",
+          "type": "file",
+          "description": "community_background_image_description",
+          "label": "community_background_image_label"
+        },
+        {
+          "identifier": "community_image",
+          "type": "file",
+          "description": "community_image_description",
+          "label": "community_image_label"
+        }
+      ]
+    },
     {
       "label": "search_group_label",
       "variables": [
@@ -1422,6 +1361,37 @@
           "type": "checkbox",
           "description": "follow_section_description",
           "label": "follow_section_label",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "community_post_group_label",
+      "variables": [
+        {
+          "identifier": "show_follow_post",
+          "type": "checkbox",
+          "description": "follow_post_description",
+          "label": "follow_post_label",
+          "value": true
+        },
+        {
+          "identifier": "show_post_sharing",
+          "type": "checkbox",
+          "description": "post_sharing_description",
+          "label": "post_sharing_label",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "community_topic_group_label",
+      "variables": [
+        {
+          "identifier": "show_follow_topic",
+          "type": "checkbox",
+          "description": "follow_topic_description",
+          "label": "follow_topic_label",
           "value": true
         }
       ]
