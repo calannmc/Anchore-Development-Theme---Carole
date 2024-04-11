@@ -1349,70 +1349,70 @@
           "value": "SOLUTIONS"
         },
         {
-          "identifier": "footer_link_text_2_2",
+          "identifier": "footer_link_text_2_1",
           "type": "text",
           "description": "Text for the first link in the second column.",
           "label": "Link Text 2:1",
           "value": "CI/CD Security"
         },
         {
-          "identifier": "footer_link_url_2_2",
+          "identifier": "footer_link_url_2_1",
           "type": "text",
           "description": "URL for the first link in the second column.",
           "label": "Link URL 2:1",
           "value": "https://anchore.com/cicd/"
         },
         {
-          "identifier": "footer_link_text_2_3",
+          "identifier": "footer_link_text_2_2",
           "type": "text",
           "description": "Text for the second link in the second column.",
           "label": "Link Text 2:2",
           "value": "Container Security"
         },
         {
-          "identifier": "footer_link_url_2_3",
+          "identifier": "footer_link_url_2_2",
           "type": "text",
           "description": "URL for the second link in the second column.",
           "label": "Link URL 2:2",
           "value": "https://anchore.com/container-registry-scanning/"
         },
         {
-          "identifier": "footer_link_text_2_4",
+          "identifier": "footer_link_text_2_3",
           "type": "text",
           "description": "Text for the third link in the second column.",
           "label": "Link Text 2:3",
           "value": "Container Vulnerability Scanning"
         },
         {
-          "identifier": "footer_link_url_2_4",
+          "identifier": "footer_link_url_2_3",
           "type": "text",
           "description": "URL for the third link in the second column.",
           "label": "Link URL 2:3",
           "value": "https://anchore.com/container-security/"
         },
         {
-          "identifier": "footer_link_text_2_5",
+          "identifier": "footer_link_text_2_4",
           "type": "text",
           "description": "Text for the forth link in the second column.",
           "label": "Link Text 2:4",
           "value": "FedRAMP Vulnerability Scanning"
         },
         {
-          "identifier": "footer_link_url_2_5",
+          "identifier": "footer_link_url_2_4",
           "type": "text",
           "description": "URL for the forth link in the second column.",
           "label": "Link URL 2:4",
           "value": "https://anchore.com/fedramp/"
         },
         {
-          "identifier": "footer_link_text_2_6",
+          "identifier": "footer_link_text_2_5",
           "type": "text",
           "description": "Text for the fifth link in the second column.",
           "label": "Link Text 2:5",
           "value": "Federal Compliance"
         },
         {
-          "identifier": "footer_link_url_2_6",
+          "identifier": "footer_link_url_2_5",
           "type": "text",
           "description": "URL for the fifth link in the second column.",
           "label": "Link URL 2:5",
@@ -1517,21 +1517,21 @@
           "value": "Webinars"
         },
         {
-          "identifier": "footer_link_url_3_5",
+          "identifier": "footer_link_url_3_7",
           "type": "text",
           "description": "URL for the forth link in the third column.",
           "label": "Link URL 3:4",
           "value": "https://anchore.com/webinars/"
         },
         {
-          "identifier": "footer_link_text_3_6",
+          "identifier": "footer_link_text_3_8",
           "type": "text",
           "description": "Text for the fifth link in the third column.",
           "label": "Link Text 3:5",
           "value": "Videos"
         },
         {
-          "identifier": "footer_link_url_3_6",
+          "identifier": "footer_link_url_3_8",
           "type": "text",
           "description": "URL for the fifth link in the third column.",
           "label": "Link URL 3:5",
@@ -1545,42 +1545,42 @@
           "value": "LEARN"
         },
         {
-          "identifier": "footer_link_text_4_2",
+          "identifier": "footer_link_text_4_1",
           "type": "text",
           "description": "Text for the first link in the forth column.",
           "label": "Link Text 4:1",
           "value": "Compliance"
         },
         {
-          "identifier": "footer_link_url_4_2",
+          "identifier": "footer_link_url_4_1",
           "type": "text",
           "description": "URL for the first link in the forth column.",
           "label": "Link URL 4:1",
           "value": "https://anchore.com/compliance/"
         },
         {
-          "identifier": "footer_link_text_4_3",
+          "identifier": "footer_link_text_4_2",
           "type": "text",
           "description": "Text for the second link in the forth column.",
           "label": "Link Text 4:2",
           "value": "DevSecOps"
         },
         {
-          "identifier": "footer_link_url_4_3",
+          "identifier": "footer_link_url_4_2",
           "type": "text",
           "description": "URL for the second link in the forth column.",
           "label": "Link URL 4:2",
           "value": "https://anchore.com/devsecops/what-is-devsecops/"
         },
         {
-          "identifier": "footer_link_text_4_4",
+          "identifier": "footer_link_text_4_3",
           "type": "text",
           "description": "Text for the third link in the forth column.",
           "label": "Link Text 4:3",
           "value": "SBOM"
         },
         {
-          "identifier": "footer_link_url_4_4",
+          "identifier": "footer_link_url_4_3",
           "type": "text",
           "description": "URL for the third link in the forth column.",
           "label": "Link URL 4:3",
@@ -1657,7 +1657,7 @@
           "value": "Press & News"
         },
         {
-          "identifier": "footer_link_url_5_4",
+          "identifier": "footer_link_url_5_5",
           "type": "text",
           "description": "URL for the forth link in the forth column.",
           "label": "Link URL 5:4",
@@ -1670,7 +1670,7 @@
           "value": "Request a Demo"
         },
         {
-          "identifier": "footer_link_url_5_4",
+          "identifier": "footer_link_url_5_6",
           "type": "text",
           "description": "URL for the forth link in the forth column.",
           "label": "Link URL 5:4",
