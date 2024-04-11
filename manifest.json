@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - Carole 11.04",
   "author": "Zendesk",
-  "version": "5.2.7",
+  "version": "5.2.8",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1282,370 +1282,421 @@
           "label": "social icon 5 link",
           "value": "https://github.com/anchore/"
         },
-        {
-          "identifier": "footer_icon_contact_1",
-          "type": "text",
-          "description": "footer icon contact 1",
-          "label": "contact 1 text",
-          "value": "Privacy Policy"
-        },
-        {
-          "identifier": "footer_icon_contact_1_link",
-          "type": "text",
-          "description": "footer icon contact 1 link",
-          "label": "contact 1 link",
-          "value": "https://nanotempertech.com/privacy/#support-center"
-        },
-        {
-          "identifier": "footer_icon_contact_2",
-          "type": "text",
-          "description": "footer icon contact 2",
-          "label": "contact 2 text",
-          "value": "Imprint"
-        },
-        {
-          "identifier": "footer_icon_contact_2_link",
-          "type": "text",
-          "description": "footer icon contact 2 link",
-          "label": "contact 2 link",
-          "value": "https://nanotempertech.com/imprint/"
-        },
-        {
-          "identifier": "footer_icon_contact_3",
-          "type": "text",
-          "description": "footer icon contact 3",
-          "label": "contact 3 text",
-          "value": ""
-        },
-        {
-          "identifier": "footer_icon_contact_3_link",
-          "type": "text",
-          "description": "footer icon contact 3 link",
-          "label": "contact 3 link",
-          "value": "text"
-        },
-        {
-          "identifier": "footer_description",
-          "type": "text",
-          "description": "Description displayed beside the logo in the footer.",
-          "label": "Footer Description",
-          "value": "NanoTemper creates high-quality biophysical tools that give scientists the clarity, confidence, and momentum they need to discover and develop future therapies — even difficult ones."
-        },
-        {
+      {
           "identifier": "footer_heading_1",
           "type": "text",
           "description": "First column heading.",
           "label": "Footer Heading 1",
-          "value": "Company"
+          "value": "PLATFORM"
         },
         {
           "identifier": "footer_link_text_1_1",
           "type": "text",
           "description": "Text for the first link in the first column.",
           "label": "Link Text 1:1",
-          "value": "About"
+          "value": "Anchore Enterprise"
         },
         {
           "identifier": "footer_link_url_1_1",
           "type": "text",
           "description": "URL for the first link in the first column.",
           "label": "Link URL 1:1",
-          "value": "https://nanotempertech.com/about/"
+          "value": "https://anchore.com/platform/enterprises/"
         },
         {
           "identifier": "footer_link_text_2",
           "type": "text",
           "description": "Text for the second link in the first column.",
           "label": "Link Text 1:2",
-          "value": "Careers"
+          "value": "Anchore Federal"
         },
         {
           "identifier": "footer_link_url_2",
           "type": "text",
           "description": "URL for the second link in the first column.",
           "label": "Link URL 1:2",
-          "value": "https://nanotempertech.com/careers/"
+          "value": "https://anchore.com/platform/public-sector/"
+        },
+        {
+          "identifier": "footer_heading_1",
+          "type": "text",
+          "description": "First column heading.",
+          "label": "Footer Heading 1",
+          "value": "FEDERAL"
+        },
+        {
+          "identifier": "footer_link_text_1_1",
+          "type": "text",
+          "description": "Text for the first link in the first column.",
+          "label": "Link Text 1:1",
+          "value": "NIST Compliance"
+        },
+        {
+          "identifier": "footer_link_url_1_1",
+          "type": "text",
+          "description": "URL for the first link in the first column.",
+          "label": "Link URL 1:1",
+          "value": "https://anchore.com/compliance/nist/"
         },
         {
           "identifier": "footer_link_text_3",
           "type": "text",
           "description": "Text for the third link in the first column.",
           "label": "Link Text 1:3",
-          "value": "News"
+          "value": "Software Factory"
         },
         {
           "identifier": "footer_link_url_3",
           "type": "text",
           "description": "URL for the third link in the first column.",
           "label": "Link URL 1:3",
-          "value": "https://nanotempertech.com/newsroom/"
+          "value": "https://anchore.com/dod-software-factory/"
         },
-        {
-          "identifier": "footer_link_text_4",
-          "type": "text",
-          "description": "Text for the forth link in the first column.",
-          "label": "Link Text 1:4",
-          "value": "Offices"
-        },
-        {
-          "identifier": "footer_link_url_4",
-          "type": "text",
-          "description": "URL for the forth link in the first column.",
-          "label": "Link URL 1:4",
-          "value": "https://nanotempertech.com/offices/"
-        },
-        {
-          "identifier": "footer_link_text_5",
-          "type": "text",
-          "description": "Text for the fifth link in the first column.",
-          "label": "Link Text 1:5",
-          "value": "Distributors"
-        },
-        {
-          "identifier": "footer_link_url_5",
-          "type": "text",
-          "description": "URL for the fifth link in the first column.",
-          "label": "Link URL 1:5",
-          "value": "https://nanotempertech.com/distributors/"
-        },
+
         {
           "identifier": "footer_heading_2",
           "type": "text",
           "description": "First column heading.",
           "label": "Footer Heading 2",
-          "value": "Products"
+          "value": "SOLUTIONS"
         },
         {
           "identifier": "footer_link_text_2_2",
           "type": "text",
           "description": "Text for the first link in the second column.",
           "label": "Link Text 2:1",
-          "value": "Prometheus"
+          "value": "CI/CD Security"
         },
         {
           "identifier": "footer_link_url_2_2",
           "type": "text",
           "description": "URL for the first link in the second column.",
           "label": "Link URL 2:1",
-          "value": "https://nanotempertech.com/prometheus/"
+          "value": "https://anchore.com/cicd/"
         },
         {
           "identifier": "footer_link_text_2_3",
           "type": "text",
           "description": "Text for the second link in the second column.",
           "label": "Link Text 2:2",
-          "value": "Dianthus"
+          "value": "Container Security"
         },
         {
           "identifier": "footer_link_url_2_3",
           "type": "text",
           "description": "URL for the second link in the second column.",
           "label": "Link URL 2:2",
-          "value": "https://nanotempertech.com/dianthus/"
+          "value": "https://anchore.com/container-registry-scanning/"
         },
         {
           "identifier": "footer_link_text_2_4",
           "type": "text",
           "description": "Text for the third link in the second column.",
           "label": "Link Text 2:3",
-          "value": "Monolith"
+          "value": "Container Vulnerability Scanning"
         },
         {
           "identifier": "footer_link_url_2_4",
           "type": "text",
           "description": "URL for the third link in the second column.",
           "label": "Link URL 2:3",
-          "value": "https://nanotempertech.com/monolith/"
+          "value": "https://anchore.com/container-security/"
         },
         {
           "identifier": "footer_link_text_2_5",
           "type": "text",
           "description": "Text for the forth link in the second column.",
           "label": "Link Text 2:4",
-          "value": ""
+          "value": "FedRAMP Vulnerability Scanning"
         },
         {
           "identifier": "footer_link_url_2_5",
           "type": "text",
           "description": "URL for the forth link in the second column.",
           "label": "Link URL 2:4",
-          "value": "#"
+          "value": "https://anchore.com/fedramp/"
         },
         {
           "identifier": "footer_link_text_2_6",
           "type": "text",
           "description": "Text for the fifth link in the second column.",
           "label": "Link Text 2:5",
-          "value": ""
+          "value": "Federal Compliance"
         },
         {
           "identifier": "footer_link_url_2_6",
           "type": "text",
           "description": "URL for the fifth link in the second column.",
           "label": "Link URL 2:5",
-          "value": "#"
+          "value": "https://anchore.com/federal-compliance/"
         },
         {
           "identifier": "footer_heading_3",
           "type": "text",
           "description": "Third column heading.",
           "label": "Footer Heading 3",
-          "value": "Learn"
+          "value": "RESOURCES"
+        },
+        {
+          "identifier": "footer_link_text_3_1",
+          "type": "text",
+          "description": "Text for the first link in the third column.",
+          "label": "Link Text 3:1",
+          "value": "Blog"
+        },
+        {
+          "identifier": "footer_link_url_3_1",
+          "type": "text",
+          "description": "URL for the first link in the third column.",
+          "label": "Link URL 3:1",
+          "value": "https://anchore.com/blog/"
         },
         {
           "identifier": "footer_link_text_3_2",
           "type": "text",
           "description": "Text for the first link in the third column.",
-          "label": "Link Text 3:1",
-          "value": "Resources"
+          "label": "Link Text 3:2",
+          "value": "Docs"
         },
         {
           "identifier": "footer_link_url_3_2",
           "type": "text",
           "description": "URL for the first link in the third column.",
-          "label": "Link URL 3:1",
-          "value": "https://resources.nanotempertech.com/"
+          "label": "Link URL 3:2",
+          "value": "https://docs.anchore.com/current/?_gl=1*qmdmfq*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNDcyNS4xOS4wLjA."
         },
         {
           "identifier": "footer_link_text_3_3",
           "type": "text",
           "description": "Text for the second link in the third column.",
           "label": "Link Text 3:2",
-          "value": "Blogs"
+          "value": "Open Source"
         },
         {
           "identifier": "footer_link_url_3_3",
           "type": "text",
           "description": "URL for the second link in the third column.",
           "label": "Link URL 3:2",
-          "value": "https://nanotempertech.com/blog/"
+          "value": "https://anchore.com/opensource/"
         },
         {
           "identifier": "footer_link_text_3_4",
           "type": "text",
           "description": "Text for the third link in the third column.",
           "label": "Link Text 3:3",
-          "value": "Events"
+          "value": "Integrations"
         },
         {
           "identifier": "footer_link_url_3_4",
           "type": "text",
           "description": "URL for the third link in the third column.",
           "label": "Link URL 3:3",
-          "value": "https://nanotempertech.com/events/"
+          "value": "https://anchore.com/integrations/"
         },
         {
           "identifier": "footer_link_text_3_5",
           "type": "text",
           "description": "Text for the forth link in the third column.",
           "label": "Link Text 3:4",
-          "value": ""
+          "value": "Partners"
         },
         {
           "identifier": "footer_link_url_3_5",
           "type": "text",
           "description": "URL for the forth link in the third column.",
           "label": "Link URL 3:4",
-          "value": "#"
+          "value": "https://anchore.com/partners/"
         },
         {
           "identifier": "footer_link_text_3_6",
           "type": "text",
           "description": "Text for the fifth link in the third column.",
           "label": "Link Text 3:5",
-          "value": ""
+          "value": "Events"
         },
         {
           "identifier": "footer_link_url_3_6",
           "type": "text",
           "description": "URL for the fifth link in the third column.",
           "label": "Link URL 3:5",
-          "value": "#"
+          "value": "https://anchore.com/events/"
+        },
+        {
+          "identifier": "footer_link_text_3_7",
+          "type": "text",
+          "description": "Text for the forth link in the third column.",
+          "label": "Link Text 3:4",
+          "value": "Webinars"
+        },
+        {
+          "identifier": "footer_link_url_3_5",
+          "type": "text",
+          "description": "URL for the forth link in the third column.",
+          "label": "Link URL 3:4",
+          "value": "https://anchore.com/webinars/"
+        },
+        {
+          "identifier": "footer_link_text_3_6",
+          "type": "text",
+          "description": "Text for the fifth link in the third column.",
+          "label": "Link Text 3:5",
+          "value": "Videos"
+        },
+        {
+          "identifier": "footer_link_url_3_6",
+          "type": "text",
+          "description": "URL for the fifth link in the third column.",
+          "label": "Link URL 3:5",
+          "value": "https://anchore.com/videos/"
         },
         {
           "identifier": "footer_heading_4",
           "type": "text",
           "description": "Forth column heading.",
           "label": "Footer Heading 4",
-          "value": "User Support"
+          "value": "LEARN"
         },
         {
           "identifier": "footer_link_text_4_2",
           "type": "text",
           "description": "Text for the first link in the forth column.",
           "label": "Link Text 4:1",
-          "value": "Get Support"
+          "value": "Compliance"
         },
         {
           "identifier": "footer_link_url_4_2",
           "type": "text",
           "description": "URL for the first link in the forth column.",
           "label": "Link URL 4:1",
-          "value": "https://nanotempertech.com/support/"
+          "value": "https://anchore.com/compliance/"
         },
         {
           "identifier": "footer_link_text_4_3",
           "type": "text",
           "description": "Text for the second link in the forth column.",
           "label": "Link Text 4:2",
-          "value": "Online Store for EU + US"
+          "value": "DevSecOps"
         },
         {
           "identifier": "footer_link_url_4_3",
           "type": "text",
           "description": "URL for the second link in the forth column.",
           "label": "Link URL 4:2",
-          "value": "http://shop.nanotempertech.com/"
+          "value": "https://anchore.com/devsecops/what-is-devsecops/"
         },
         {
           "identifier": "footer_link_text_4_4",
           "type": "text",
           "description": "Text for the third link in the forth column.",
           "label": "Link Text 4:3",
-          "value": "Get Consumables Quote"
+          "value": "SBOM"
         },
         {
           "identifier": "footer_link_url_4_4",
           "type": "text",
           "description": "URL for the third link in the forth column.",
           "label": "Link URL 4:3",
-          "value": "https://nanotempertech.com/purchase/"
+          "value": "https://anchore.com/sbom/what-is-an-sbom/"
         },
         {
-          "identifier": "footer_link_text_4_5",
+          "identifier": "footer_heading_5",
+          "type": "text",
+          "description": "Forth column heading.",
+          "label": "Footer Heading 5",
+          "value": "COMPANY"
+        },
+        {
+          "identifier": "footer_link_text_5_1",
+          "type": "text",
+          "description": "Text for the first link in the forth column.",
+          "label": "Link Text 5:1",
+          "value": "About Us"
+        },
+        {
+          "identifier": "footer_link_url_5_1",
+          "type": "text",
+          "description": "URL for the first link in the forth column.",
+          "label": "Link URL 5:1",
+          "value": "https://anchore.com/about-us/"
+        },
+        {
+          "identifier": "footer_link_text_5_2",
+          "type": "text",
+          "description": "Text for the second link in the forth column.",
+          "label": "Link Text 5:2",
+          "value": "Become a Partner"
+        },
+        {
+          "identifier": "footer_link_url_5_2",
+          "type": "text",
+          "description": "URL for the second link in the forth column.",
+          "label": "Link URL 5:2",
+          "value": "https://get.anchore.com/become-a-partner/?_gl=1*1nvhagm*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTY3Ni41Ny4wLjA."
+        },
+        {
+          "identifier": "footer_link_text_5_3",
+          "type": "text",
+          "description": "Text for the third link in the forth column.",
+          "label": "Link Text 5:3",
+          "value": "Careers"
+        },
+        {
+          "identifier": "footer_link_url_5_3",
+          "type": "text",
+          "description": "URL for the third link in the forth column.",
+          "label": "Link URL 4:3",
+          "value": "https://anchore.com/careers/"
+        },
+        {
+          "identifier": "footer_link_text_5_4",
           "type": "text",
           "description": "Text for the forth link in the forth column.",
-          "label": "Link Text 4:4",
-          "value": "User Trainings"
+          "label": "Link text 4:4",
+          "value": "Contact Us"
         },
         {
-          "identifier": "footer_link_url_4_5",
+          "identifier": "footer_link_url_5_4",
           "type": "text",
           "description": "URL for the forth link in the forth column.",
-          "label": "Link URL 4:4",
-          "value": "https://nanotempertech.com/user-training/"
+          "label": "Link URL 5:4",
+          "value": "https://get.anchore.com/contact/?_gl=1*1je9y1v*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTExOC4zOS4wLjA."
         },
         {
-          "identifier": "footer_link_text_4_6",
+          "identifier": "footer_link_text_5_5",
           "type": "text",
-          "description": "Text for the first link in the first column.",
-          "label": "Link Text 4:5",
-          "value": "Service"
+          "description": "Text for the forth link in the forth column.",
+          "label": "Link text 5:5",
+          "value": "Press & News"
         },
         {
-          "identifier": "footer_link_url_4_6",
+          "identifier": "footer_link_url_5_4",
           "type": "text",
-          "description": "URL for the first link in the first column.",
-          "label": "Link URL 4:5",
-          "value": "https://nanotempertech.com/service/"
+          "description": "URL for the forth link in the forth column.",
+          "label": "Link URL 5:4",
+          "value": "https://anchore.com/newsroom/"
+        },   {
+          "identifier": "footer_link_text_5_6",
+          "type": "text",
+          "description": "Text for the forth link in the forth column.",
+          "label": "Link text 5:6",
+          "value": "Request a Demo"
         },
+        {
+          "identifier": "footer_link_url_5_4",
+          "type": "text",
+          "description": "URL for the forth link in the forth column.",
+          "label": "Link URL 5:4",
+          "value": "https://get.anchore.com/demo-request/?_gl=1*7ulzl5*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMjgyMjc4Ny40LjEuMTcxMjgyNTgwMC4xNS4wLjA."
+        },
+
         {
           "identifier": "copyright_text",
           "type": "text",
           "description": "Copyright text.",
           "label": "Copyright Text",
-          "value": "© 2023 NanoTemper Technologies. Inc. All Rights Reserved."
-        }
+          "value": "© Anchore 2021 - 2024. All Rights Reserved."
+        },
+        
       ]
     },
     {
