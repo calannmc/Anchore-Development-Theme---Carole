@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - Carole 11.04",
   "author": "Zendesk",
-  "version": "5.2.8",
+  "version": "5.2.9",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1318,21 +1318,21 @@
           "value": "https://anchore.com/platform/public-sector/"
         },
         {
-          "identifier": "footer_heading_1",
+          "identifier": "footer_heading_1.1",
           "type": "text",
           "description": "First column heading.",
           "label": "Footer Heading 1",
           "value": "FEDERAL"
         },
         {
-          "identifier": "footer_link_text_1_1",
+          "identifier": "footer_link_text_1_1.1",
           "type": "text",
           "description": "Text for the first link in the first column.",
           "label": "Link Text 1:1",
           "value": "NIST Compliance"
         },
         {
-          "identifier": "footer_link_url_1_1",
+          "identifier": "footer_link_url_1_1.1",
           "type": "text",
           "description": "URL for the first link in the first column.",
           "label": "Link URL 1:1",
