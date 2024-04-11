@@ -1,11 +1,10 @@
 {
-  "name": "Anchore Development Theme - Carole",
+  "name": "Anchore Development Theme - Carole 11.04",
   "author": "Zendesk",
-  "version": "5.2.5",
+  "version": "5.2.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
-    
     {
       "label": "Search bar",
       "variables": [
@@ -40,7 +39,6 @@
           "label": "Hero Banner Description",
           "value": "Description for the homepage hero banner"
         },
-
         {
           "identifier": "hero_banner_image",
           "type": "file",
@@ -59,14 +57,14 @@
           "type": "text",
           "description": "URL for the homepage video",
           "label": "Homepage Video URL",
-          "value": "Homepage Video URL"
+          "value": "https://player.vimeo.com/video/347119375"
         },
         {
           "identifier": "cta_one_title",
           "type": "text",
           "description": "Title for CTA1",
           "label": "CTA1 Title",
-          "value": "CTA1 Title"
+          "value": "CTA Title"
         },
         {
           "identifier": "cta_one",
@@ -80,17 +78,15 @@
           "type": "text",
           "description": "Title for CTA2",
           "label": "CTA2 Title",
-          "value": "CTA2 Title"
+          "value": "CTA Title"
         },
         {
-
           "identifier": "cta_two",
           "type": "text",
           "description": "URL for the CTA",
           "label": "CTA2 URL",
           "value": "CTA2 URL"
         },
-
         {
           "identifier": "header_one_title",
           "type": "text",
@@ -105,7 +101,6 @@
           "label": "HEADER URL",
           "value": "#"
         },
-
         {
           "identifier": "header_two_title",
           "type": "text",
@@ -120,13 +115,12 @@
           "label": "HEADER URL",
           "value": "#"
         },
-        
         {
           "identifier": "header_three_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Submit a request"
+          "value": "Header 3"
         },
         {
           "identifier": "header_three",
@@ -135,13 +129,12 @@
           "label": "HEADER URL",
           "value": "#"
         },
-        
         {
           "identifier": "header_four_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Submit a request"
+          "value": "Header 4"
         },
         {
           "identifier": "header_four",
@@ -150,13 +143,12 @@
           "label": "HEADER URL",
           "value": "#"
         },
-        
         {
           "identifier": "header_five_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Submit a request"
+          "value": "Header 5"
         },
         {
           "identifier": "header_five",
@@ -496,10 +488,10 @@
         }
       ]
     },
-      {
-        "label": "Category Cards",
-        "variables": [
-         {
+    {
+      "label": "Category Cards",
+      "variables": [
+        {
           "identifier": "category_card_icon_1",
           "type": "file",
           "description": "Icon for the first category card",
@@ -510,7 +502,7 @@
           "type": "text",
           "description": "Name for category 1",
           "label": "Category one name",
-          "value": "Category One"
+          "value": "Category  One"
         },
         {
           "identifier": "category_card_icon_2",
@@ -707,7 +699,6 @@
           "label": "Category 16 name",
           "value": "Product not listed"
         },
-       
         {
           "identifier": "popular_articles_text",
           "type": "text",
@@ -962,7 +953,7 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#0E40C0"
+          "value": "rgba(14, 64, 192, 1)"
         },
         {
           "identifier": "brand_color_black",
@@ -976,14 +967,14 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#20242e"
+          "value": "rgba(15, 19, 31, 1)"
         },
         {
           "identifier": "brand_text_color",
           "type": "color",
           "description": "brand_text_color_description",
           "label": "brand_text_color_label",
-          "value": "#f2f5f8"
+          "value": "rgba(242, 245, 248, 1)"
         },
         {
           "identifier": "brand_color_softwhite",
@@ -1032,35 +1023,35 @@
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#f2f5f8"
+          "value": "#2F3941"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#82bcf9"
+          "value": "#1F73B7"
         },
         {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "hover_link_color_description",
           "label": "hover_link_color_label",
-          "value": "#82bcf9"
+          "value": "#0F3554"
         },
         {
           "identifier": "visited_link_color",
           "type": "color",
           "description": "visited_link_color_description",
           "label": "visited_link_color_label",
-          "value": "#82bcf9"
+          "value": "#9358B0"
         },
         {
           "identifier": "background_color",
           "type": "color",
           "description": "background_color_description",
           "label": "background_color_label",
-          "value": "#f2f5f8"
+          "value": "#FFFFFF"
         }
       ]
     },
