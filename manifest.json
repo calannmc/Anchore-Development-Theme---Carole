@@ -1269,19 +1269,7 @@
           "label": "social icon 2 link",
           "value": "https://www.youtube.com/channel/UC3HczVqyiAqz1aNxBIMS3pQ"
         },
-        {
-          "identifier": "footer_icon_5",
-          "type": "file",
-          "description": "Icon for the footer social",
-          "label": "footer icon 5"
-        },
-        {
-          "identifier": "footer_icon_5_text",
-          "type": "text",
-          "description": "social icon 5 link",
-          "label": "social icon 5 link",
-          "value": "https://github.com/anchore/"
-        },
+
       {
           "identifier": "footer_heading_1",
           "type": "text",
