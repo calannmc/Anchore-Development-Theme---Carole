@@ -12,7 +12,7 @@
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 footer-heading">
       <div class="col-span-1 md:col-span-4">
         <img src="{{settings.logo}}" alt="Logo" class="h-12 w-auto mb-7">
-        <p class="footer-small opacity-90">{{settings.footer_description}}</p>
+       
         <div class="flex flex-row gap-4 my-5">
           {{#if settings.footer_icon_1_text}}
             <a href="{{settings.footer_icon_1_text}}">
@@ -46,15 +46,15 @@
             {{#if settings.footer_link_text_1_2}}
               <li><a href="{{settings.footer_link_url_1_2}}" class="opacity-60 text-left">{{settings.footer_link_text_1_2}}</a></li>
             {{/if}}
-            {{#if settings.footer_link_text_1_3}}
-              <li><a href="{{settings.footer_link_url_1_3}}" class="opacity-60 text-left">{{settings.footer_link_text_1_3}}</a></li>
+            <h6 class="text-white text-left">{{settings.footer_heading_1_1}}</h6>
+                {{#if settings.footer_link_text_1_1_1}}
+              <li><a href="{{settings.footer_link_url_1_1}}" class="opacity-60 text-left">{{settings.footer_link_text_1_1}}</a></li>
             {{/if}}
-            {{#if settings.footer_link_text_1_4}}
-              <li><a href="{{settings.footer_link_url_1_4}}" class="opacity-60 text-left">{{settings.footer_link_text_1_4}}</a></li>
+            {{#if settings.footer_link_text_1_2}}
+              <li><a href="{{settings.footer_link_url_1_1_2}}" class="opacity-60 text-left">{{settings.footer_link_text_1_2}}</a></li>
             {{/if}}
-            {{#if settings.footer_link_text_1_5}}
-              <li><a href="{{settings.footer_link_url_1_5}}" class="opacity-60 text-left">{{settings.footer_link_text_1_5}}</a></li>
-            {{/if}}
+
+
           </ul>
         </div>
       {{/if}}
@@ -76,6 +76,9 @@
             {{/if}}
             {{#if settings.footer_link_text_2_5}}
               <li><a href="{{settings.footer_link_url_2_5}}" class="opacity-60 text-left">{{settings.footer_link_text_2_5}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2_6}}
+              <li><a href="{{settings.footer_link_url_2_6}}" class="opacity-60 text-left">{{settings.footer_link_text_2_6}}</a></li>
             {{/if}}
           </ul>
         </div>
@@ -99,6 +102,15 @@
             {{#if settings.footer_link_text_3_5}}
               <li><a href="{{settings.footer_link_url_3_5}}" class="opacity-60 text-left">{{settings.footer_link_text_3_5}}</a></li>
             {{/if}}
+            {{#if settings.footer_link_text_3_5}}
+              <li><a href="{{settings.footer_link_url_3_6}}" class="opacity-60 text-left">{{settings.footer_link_text_3_6}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_5}}
+              <li><a href="{{settings.footer_link_url_3_7}}" class="opacity-60 text-left">{{settings.footer_link_text_3_7}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_5}}
+              <li><a href="{{settings.footer_link_url_3_8}}" class="opacity-60 text-left">{{settings.footer_link_text_3_8}}</a></li>
+            {{/if}}
           </ul>
         </div>
       {{/if}}
@@ -118,26 +130,40 @@
             {{#if settings.footer_link_text_4_4}}
               <li><a href="{{settings.footer_link_url_4_4}}" class="opacity-60 text-left">{{settings.footer_link_text_4_4}}</a></li>
             {{/if}}
-            {{#if settings.footer_link_text_4_5}}
-              <li><a href="{{settings.footer_link_url_4_5}}" class="opacity-60 text-left">{{settings.footer_link_text_4_5}}</a></li>
+          
+          </ul>
+        </div>
+            {{#if settings.footer_heading_5}}
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="text-white text-left">{{settings.footer_heading_5}}</h6>
+          <ul class="list-unstyled footer-links">
+            {{#if settings.footer_link_text_5_1}}
+              <li><a href="{{settings.footer_link_url_5_1}}" class="opacity-60 text-left">{{settings.footer_link_text_5_1}}</a></li>
             {{/if}}
+            {{#if settings.footer_link_text_5_2}}
+              <li><a href="{{settings.footer_link_url_5_2}}" class="opacity-60 text-left">{{settings.footer_link_text_5_2}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_5_3}}
+              <li><a href="{{settings.footer_link_url_5_3}}" class="opacity-60 text-left">{{settings.footer_link_text_5_3}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_5_4}}
+              <li><a href="{{settings.footer_link_url_5_4}}" class="opacity-60 text-left">{{settings.footer_link_text_5_4}}</a></li>
+            {{/if}}
+              {{#if settings.footer_link_text_5_5}}
+              <li><a href="{{settings.footer_link_url_5_5}}" class="opacity-60 text-left">{{settings.footer_link_text_5_5}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_5_6}}
+              <li><a href="{{settings.footer_link_url_5_6}}" class="opacity-60 text-left">{{settings.footer_link_text_5_6}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_6_7}}
+              <li><a href="{{settings.footer_link_url_5_7}}" class="opacity-60 text-left">{{settings.footer_link_text_5_7}}</a></li>
+            {{/if}}
+          
+          
           </ul>
         </div>
       {{/if}}
     </div>
-    <div class="mt-8 text-center flex items-center justify-between">
-      <p class="opacity-50">{{settings.copyright_text}}</p>
-      <ul class="list-unstyled footer-links flex flex-col md:flex-row gap-5">
-        {{#if settings.footer_icon_contact_1}}
-          <li><a href="{{settings.footer_icon_contact_1_link}}" class="opacity-50">{{settings.footer_icon_contact_1}}</a></li>
-        {{/if}}
-        {{#if settings.footer_icon_contact_2}}
-          <li><a href="{{settings.footer_icon_contact_2_link}}" class="opacity-50">{{settings.footer_icon_contact_2}}</a></li>
-        {{/if}}
-        {{#if settings.footer_icon_contact_3}}
-          <li><a href="{{settings.footer_icon_contact_3_link}}" class="opacity-50">{{settings.footer_icon_contact_3}}</a></li>
-        {{/if}}
-      </ul>
-    </div>
+    
   </div>
 </footer>

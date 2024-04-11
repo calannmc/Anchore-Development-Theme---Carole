@@ -888,14 +888,14 @@
           "value": "https://anchore.com/platform/enterprises/"
         },
         {
-          "identifier": "footer_link_text_2",
+          "identifier": "footer_link_text_1_2",
           "type": "text",
           "description": "Text for the second link in the first column.",
           "label": "Link Text 1:2",
           "value": "Anchore Federal"
         },
         {
-          "identifier": "footer_link_url_2",
+          "identifier": "footer_link_url_1_2",
           "type": "text",
           "description": "URL for the second link in the first column.",
           "label": "Link URL 1:2",
@@ -1181,6 +1181,20 @@
           "description": "URL for the third link in the forth column.",
           "label": "Link URL 4:3",
           "value": "https://anchore.com/sbom/what-is-an-sbom/"
+        },
+        {
+          "identifier": "footer_link_text_4_4",
+          "type": "text",
+          "description": "Text for the third link in the forth column.",
+          "label": "Link Text 4:3",
+          "value": "Software Supply Chain Security"
+        },
+        {
+          "identifier": "footer_link_url_4_4",
+          "type": "text",
+          "description": "URL for the third link in the forth column.",
+          "label": "Link URL 4:3",
+          "value": "https://anchore.com/software-supply-chain-security/what-is-sscs/"
         },
         {
           "identifier": "footer_heading_5",
