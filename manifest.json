@@ -1711,29 +1711,7 @@
         }
       ]
     },
-    {
-      "label": "images_group_label",
-      "variables": [
-        {
-          "identifier": "homepage_background_image",
-          "type": "file",
-          "description": "homepage_background_image_description",
-          "label": "homepage_background_image_label"
-        },
-        {
-          "identifier": "community_background_image",
-          "type": "file",
-          "description": "community_background_image_description",
-          "label": "community_background_image_label"
-        },
-        {
-          "identifier": "community_image",
-          "type": "file",
-          "description": "community_image_description",
-          "label": "community_image_label"
-        }
-      ]
-    },
+
     {
       "label": "search_group_label",
       "variables": [
@@ -1834,37 +1812,6 @@
           "type": "checkbox",
           "description": "follow_section_description",
           "label": "follow_section_label",
-          "value": true
-        }
-      ]
-    },
-    {
-      "label": "community_post_group_label",
-      "variables": [
-        {
-          "identifier": "show_follow_post",
-          "type": "checkbox",
-          "description": "follow_post_description",
-          "label": "follow_post_label",
-          "value": true
-        },
-        {
-          "identifier": "show_post_sharing",
-          "type": "checkbox",
-          "description": "post_sharing_description",
-          "label": "post_sharing_label",
-          "value": true
-        }
-      ]
-    },
-    {
-      "label": "community_topic_group_label",
-      "variables": [
-        {
-          "identifier": "show_follow_topic",
-          "type": "checkbox",
-          "description": "follow_topic_description",
-          "label": "follow_topic_label",
           "value": true
         }
       ]
