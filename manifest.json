@@ -1695,7 +1695,7 @@
           "description": "Copyright text.",
           "label": "Copyright Text",
           "value": "© Anchore 2021 - 2024. All Rights Reserved."
-        },
+        }
         
       ]
     },
