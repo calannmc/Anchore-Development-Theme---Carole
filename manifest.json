@@ -1306,21 +1306,21 @@
           "value": "https://anchore.com/platform/public-sector/"
         },
         {
-          "identifier": "footer_heading_1.1",
+          "identifier": "footer_heading_1_1",
           "type": "text",
           "description": "First column heading.",
           "label": "Footer Heading 1",
           "value": "FEDERAL"
         },
         {
-          "identifier": "footer_link_text_1_1.1",
+          "identifier": "footer_link_text_1_1_1",
           "type": "text",
           "description": "Text for the first link in the first column.",
           "label": "Link Text 1:1",
           "value": "NIST Compliance"
         },
         {
-          "identifier": "footer_link_url_1_1.1",
+          "identifier": "footer_link_url_1_1_1",
           "type": "text",
           "description": "URL for the first link in the first column.",
           "label": "Link URL 1:1",
