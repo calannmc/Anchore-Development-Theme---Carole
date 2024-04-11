@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - Carole 11.04",
   "author": "Zendesk",
-  "version": "5.2.6",
+  "version": "5.2.7",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1211,6 +1211,440 @@
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
           ]
+        }
+      ]
+    },
+    {
+      "label": "Footer Settings",
+      "variables": [
+        {
+          "identifier": "footer_icon_1",
+          "type": "file",
+          "description": "Icon for the footer social",
+          "label": "footer icon 1"
+        },
+        {
+          "identifier": "footer_icon_1_text",
+          "type": "text",
+          "description": "social icon 1 link",
+          "label": "social icon 1 link",
+          "value": "https://www.linkedin.com/company/anchore/"
+        },
+        {
+          "identifier": "footer_icon_2",
+          "type": "file",
+          "description": "Icon for the footer social",
+          "label": "footer icon 2"
+        },
+        {
+          "identifier": "footer_icon_2_text",
+          "type": "text",
+          "description": "social icon 2 link",
+          "label": "social icon 2 link",
+          "value": "https://www.facebook.com/anchore/"
+        },
+        {
+          "identifier": "footer_icon_3",
+          "type": "file",
+          "description": "Icon for the footer social",
+          "label": "footer icon 3"
+        },
+        {
+          "identifier": "footer_icon_3_text",
+          "type": "text",
+          "description": "social icon 3 link",
+          "label": "social icon 3 link",
+          "value": "https://twitter.com/anchore"
+        },
+        {
+          "identifier": "footer_icon_4",
+          "type": "file",
+          "description": "Icon for the footer social",
+          "label": "footer icon 4"
+        },
+        {
+          "identifier": "footer_icon_4_text",
+          "type": "text",
+          "description": "social icon 4 link",
+          "label": "social icon 2 link",
+          "value": "https://www.youtube.com/channel/UC3HczVqyiAqz1aNxBIMS3pQ"
+        },
+        {
+          "identifier": "footer_icon_5",
+          "type": "file",
+          "description": "Icon for the footer social",
+          "label": "footer icon 4"
+        },
+        {
+          "identifier": "footer_icon_5_text",
+          "type": "text",
+          "description": "social icon 5 link",
+          "label": "social icon 5 link",
+          "value": "https://github.com/anchore/"
+        },
+        {
+          "identifier": "footer_icon_contact_1",
+          "type": "text",
+          "description": "footer icon contact 1",
+          "label": "contact 1 text",
+          "value": "Privacy Policy"
+        },
+        {
+          "identifier": "footer_icon_contact_1_link",
+          "type": "text",
+          "description": "footer icon contact 1 link",
+          "label": "contact 1 link",
+          "value": "https://nanotempertech.com/privacy/#support-center"
+        },
+        {
+          "identifier": "footer_icon_contact_2",
+          "type": "text",
+          "description": "footer icon contact 2",
+          "label": "contact 2 text",
+          "value": "Imprint"
+        },
+        {
+          "identifier": "footer_icon_contact_2_link",
+          "type": "text",
+          "description": "footer icon contact 2 link",
+          "label": "contact 2 link",
+          "value": "https://nanotempertech.com/imprint/"
+        },
+        {
+          "identifier": "footer_icon_contact_3",
+          "type": "text",
+          "description": "footer icon contact 3",
+          "label": "contact 3 text",
+          "value": ""
+        },
+        {
+          "identifier": "footer_icon_contact_3_link",
+          "type": "text",
+          "description": "footer icon contact 3 link",
+          "label": "contact 3 link",
+          "value": "text"
+        },
+        {
+          "identifier": "footer_description",
+          "type": "text",
+          "description": "Description displayed beside the logo in the footer.",
+          "label": "Footer Description",
+          "value": "NanoTemper creates high-quality biophysical tools that give scientists the clarity, confidence, and momentum they need to discover and develop future therapies — even difficult ones."
+        },
+        {
+          "identifier": "footer_heading_1",
+          "type": "text",
+          "description": "First column heading.",
+          "label": "Footer Heading 1",
+          "value": "Company"
+        },
+        {
+          "identifier": "footer_link_text_1_1",
+          "type": "text",
+          "description": "Text for the first link in the first column.",
+          "label": "Link Text 1:1",
+          "value": "About"
+        },
+        {
+          "identifier": "footer_link_url_1_1",
+          "type": "text",
+          "description": "URL for the first link in the first column.",
+          "label": "Link URL 1:1",
+          "value": "https://nanotempertech.com/about/"
+        },
+        {
+          "identifier": "footer_link_text_2",
+          "type": "text",
+          "description": "Text for the second link in the first column.",
+          "label": "Link Text 1:2",
+          "value": "Careers"
+        },
+        {
+          "identifier": "footer_link_url_2",
+          "type": "text",
+          "description": "URL for the second link in the first column.",
+          "label": "Link URL 1:2",
+          "value": "https://nanotempertech.com/careers/"
+        },
+        {
+          "identifier": "footer_link_text_3",
+          "type": "text",
+          "description": "Text for the third link in the first column.",
+          "label": "Link Text 1:3",
+          "value": "News"
+        },
+        {
+          "identifier": "footer_link_url_3",
+          "type": "text",
+          "description": "URL for the third link in the first column.",
+          "label": "Link URL 1:3",
+          "value": "https://nanotempertech.com/newsroom/"
+        },
+        {
+          "identifier": "footer_link_text_4",
+          "type": "text",
+          "description": "Text for the forth link in the first column.",
+          "label": "Link Text 1:4",
+          "value": "Offices"
+        },
+        {
+          "identifier": "footer_link_url_4",
+          "type": "text",
+          "description": "URL for the forth link in the first column.",
+          "label": "Link URL 1:4",
+          "value": "https://nanotempertech.com/offices/"
+        },
+        {
+          "identifier": "footer_link_text_5",
+          "type": "text",
+          "description": "Text for the fifth link in the first column.",
+          "label": "Link Text 1:5",
+          "value": "Distributors"
+        },
+        {
+          "identifier": "footer_link_url_5",
+          "type": "text",
+          "description": "URL for the fifth link in the first column.",
+          "label": "Link URL 1:5",
+          "value": "https://nanotempertech.com/distributors/"
+        },
+        {
+          "identifier": "footer_heading_2",
+          "type": "text",
+          "description": "First column heading.",
+          "label": "Footer Heading 2",
+          "value": "Products"
+        },
+        {
+          "identifier": "footer_link_text_2_2",
+          "type": "text",
+          "description": "Text for the first link in the second column.",
+          "label": "Link Text 2:1",
+          "value": "Prometheus"
+        },
+        {
+          "identifier": "footer_link_url_2_2",
+          "type": "text",
+          "description": "URL for the first link in the second column.",
+          "label": "Link URL 2:1",
+          "value": "https://nanotempertech.com/prometheus/"
+        },
+        {
+          "identifier": "footer_link_text_2_3",
+          "type": "text",
+          "description": "Text for the second link in the second column.",
+          "label": "Link Text 2:2",
+          "value": "Dianthus"
+        },
+        {
+          "identifier": "footer_link_url_2_3",
+          "type": "text",
+          "description": "URL for the second link in the second column.",
+          "label": "Link URL 2:2",
+          "value": "https://nanotempertech.com/dianthus/"
+        },
+        {
+          "identifier": "footer_link_text_2_4",
+          "type": "text",
+          "description": "Text for the third link in the second column.",
+          "label": "Link Text 2:3",
+          "value": "Monolith"
+        },
+        {
+          "identifier": "footer_link_url_2_4",
+          "type": "text",
+          "description": "URL for the third link in the second column.",
+          "label": "Link URL 2:3",
+          "value": "https://nanotempertech.com/monolith/"
+        },
+        {
+          "identifier": "footer_link_text_2_5",
+          "type": "text",
+          "description": "Text for the forth link in the second column.",
+          "label": "Link Text 2:4",
+          "value": ""
+        },
+        {
+          "identifier": "footer_link_url_2_5",
+          "type": "text",
+          "description": "URL for the forth link in the second column.",
+          "label": "Link URL 2:4",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_link_text_2_6",
+          "type": "text",
+          "description": "Text for the fifth link in the second column.",
+          "label": "Link Text 2:5",
+          "value": ""
+        },
+        {
+          "identifier": "footer_link_url_2_6",
+          "type": "text",
+          "description": "URL for the fifth link in the second column.",
+          "label": "Link URL 2:5",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_heading_3",
+          "type": "text",
+          "description": "Third column heading.",
+          "label": "Footer Heading 3",
+          "value": "Learn"
+        },
+        {
+          "identifier": "footer_link_text_3_2",
+          "type": "text",
+          "description": "Text for the first link in the third column.",
+          "label": "Link Text 3:1",
+          "value": "Resources"
+        },
+        {
+          "identifier": "footer_link_url_3_2",
+          "type": "text",
+          "description": "URL for the first link in the third column.",
+          "label": "Link URL 3:1",
+          "value": "https://resources.nanotempertech.com/"
+        },
+        {
+          "identifier": "footer_link_text_3_3",
+          "type": "text",
+          "description": "Text for the second link in the third column.",
+          "label": "Link Text 3:2",
+          "value": "Blogs"
+        },
+        {
+          "identifier": "footer_link_url_3_3",
+          "type": "text",
+          "description": "URL for the second link in the third column.",
+          "label": "Link URL 3:2",
+          "value": "https://nanotempertech.com/blog/"
+        },
+        {
+          "identifier": "footer_link_text_3_4",
+          "type": "text",
+          "description": "Text for the third link in the third column.",
+          "label": "Link Text 3:3",
+          "value": "Events"
+        },
+        {
+          "identifier": "footer_link_url_3_4",
+          "type": "text",
+          "description": "URL for the third link in the third column.",
+          "label": "Link URL 3:3",
+          "value": "https://nanotempertech.com/events/"
+        },
+        {
+          "identifier": "footer_link_text_3_5",
+          "type": "text",
+          "description": "Text for the forth link in the third column.",
+          "label": "Link Text 3:4",
+          "value": ""
+        },
+        {
+          "identifier": "footer_link_url_3_5",
+          "type": "text",
+          "description": "URL for the forth link in the third column.",
+          "label": "Link URL 3:4",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_link_text_3_6",
+          "type": "text",
+          "description": "Text for the fifth link in the third column.",
+          "label": "Link Text 3:5",
+          "value": ""
+        },
+        {
+          "identifier": "footer_link_url_3_6",
+          "type": "text",
+          "description": "URL for the fifth link in the third column.",
+          "label": "Link URL 3:5",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_heading_4",
+          "type": "text",
+          "description": "Forth column heading.",
+          "label": "Footer Heading 4",
+          "value": "User Support"
+        },
+        {
+          "identifier": "footer_link_text_4_2",
+          "type": "text",
+          "description": "Text for the first link in the forth column.",
+          "label": "Link Text 4:1",
+          "value": "Get Support"
+        },
+        {
+          "identifier": "footer_link_url_4_2",
+          "type": "text",
+          "description": "URL for the first link in the forth column.",
+          "label": "Link URL 4:1",
+          "value": "https://nanotempertech.com/support/"
+        },
+        {
+          "identifier": "footer_link_text_4_3",
+          "type": "text",
+          "description": "Text for the second link in the forth column.",
+          "label": "Link Text 4:2",
+          "value": "Online Store for EU + US"
+        },
+        {
+          "identifier": "footer_link_url_4_3",
+          "type": "text",
+          "description": "URL for the second link in the forth column.",
+          "label": "Link URL 4:2",
+          "value": "http://shop.nanotempertech.com/"
+        },
+        {
+          "identifier": "footer_link_text_4_4",
+          "type": "text",
+          "description": "Text for the third link in the forth column.",
+          "label": "Link Text 4:3",
+          "value": "Get Consumables Quote"
+        },
+        {
+          "identifier": "footer_link_url_4_4",
+          "type": "text",
+          "description": "URL for the third link in the forth column.",
+          "label": "Link URL 4:3",
+          "value": "https://nanotempertech.com/purchase/"
+        },
+        {
+          "identifier": "footer_link_text_4_5",
+          "type": "text",
+          "description": "Text for the forth link in the forth column.",
+          "label": "Link Text 4:4",
+          "value": "User Trainings"
+        },
+        {
+          "identifier": "footer_link_url_4_5",
+          "type": "text",
+          "description": "URL for the forth link in the forth column.",
+          "label": "Link URL 4:4",
+          "value": "https://nanotempertech.com/user-training/"
+        },
+        {
+          "identifier": "footer_link_text_4_6",
+          "type": "text",
+          "description": "Text for the first link in the first column.",
+          "label": "Link Text 4:5",
+          "value": "Service"
+        },
+        {
+          "identifier": "footer_link_url_4_6",
+          "type": "text",
+          "description": "URL for the first link in the first column.",
+          "label": "Link URL 4:5",
+          "value": "https://nanotempertech.com/service/"
+        },
+        {
+          "identifier": "copyright_text",
+          "type": "text",
+          "description": "Copyright text.",
+          "label": "Copyright Text",
+          "value": "© 2023 NanoTemper Technologies. Inc. All Rights Reserved."
         }
       ]
     },

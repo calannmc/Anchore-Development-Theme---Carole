@@ -3,7 +3,7 @@
   <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <img class="h-7" src="{{settings.logo}}" alt="{{help_center.name}}">
-      <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+      <!--<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
             <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
@@ -82,9 +82,142 @@
       {{/if}}
           </div>
         </div>
+      </div>-->
+      <footer class="bg-blue text-white px-6 pt-20 pb-10 overflow-hidden">
+  <div class="container mx-auto py-4 md:py-0 px-6 md:px-0">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 footer-heading">
+      <div class="col-span-1 md:col-span-4">
+        <img src="{{settings.logo}}" alt="Logo" class="h-12 w-auto mb-7">
+        <p class="footer-small opacity-90">{{settings.footer_description}}</p>
+        <div class="flex flex-row gap-4 my-5">
+          {{#if settings.footer_icon_1_text}}
+          	<a href="{{settings.footer_icon_1_text}}">
+              	<img src="{{settings.footer_icon_1}}" class="h-8 w-8 object-fit">
+          	</a>
+          {{/if}}
+          {{#if settings.footer_icon_2_text}}
+          	<a href="{{settings.footer_icon_2_text}}">
+              	<img src="{{settings.footer_icon_2}}" class="h-8 w-8 object-fit">
+          	</a>
+          {{/if}}
+          {{#if settings.footer_icon_3_text}}
+          	<a href="{{settings.footer_icon_3_text}}">
+              	<img src="{{settings.footer_icon_3}}" class="h-8 w-8 object-fit">
+          	</a>
+          {{/if}}
+          {{#if settings.footer_icon_4_text}}
+          	<a href="{{settings.footer_icon_4_text}}">
+              	<img src="{{settings.footer_icon_4}}" class="h-8 w-8 object-fit">
+          	</a>
+          {{/if}}
+        </div>
       </div>
+      {{#if settings.footer_heading_1}}
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="text-white text-left">{{settings.footer_heading_1}}</h6>
+          <ul class="list-unstyled footer-links">
+            {{#if settings.footer_link_text_1_1}}
+              <li><a href="{{settings.footer_link_url_1_1}}" class="opacity-60 text-left">{{settings.footer_link_text_1_1}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2}}
+              <li><a href="{{settings.footer_link_url_2}}" class="opacity-60 text-left">{{settings.footer_link_text_2}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3}}
+              <li><a href="{{settings.footer_link_url_3}}" class="opacity-60 text-left">{{settings.footer_link_text_3}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_4}}
+              <li><a href="{{settings.footer_link_url_4}}" class="opacity-60 text-left">{{settings.footer_link_text_4}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_5}}
+              <li><a href="{{settings.footer_link_url_5}}" class="opacity-60 text-left">{{settings.footer_link_text_5}}</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      {{/if}}
+      {{#if settings.footer_heading_2}}
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="text-white text-left">{{settings.footer_heading_2}}</h6>
+          <ul class="list-unstyled footer-links">
+            {{#if settings.footer_link_text_2_2}}
+              <li><a href="{{settings.footer_link_url_2_2}}" class="opacity-60 text-left">{{settings.footer_link_text_2_2}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2_3}}
+              <li><a href="{{settings.footer_link_url_2_3}}" class="opacity-60 text-left">{{settings.footer_link_text_2_3}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2_4}}
+              <li><a href="{{settings.footer_link_url_2_4}}" class="opacity-60 text-left">{{settings.footer_link_text_2_4}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2_5}}
+              <li><a href="{{settings.footer_link_url_2_5}}" class="opacity-60 text-left">{{settings.footer_link_text_2_5}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_2_6}}
+              <li><a href="{{settings.footer_link_url_2_6}}" class="opacity-60 text-left">{{settings.footer_link_text_2_6}}</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      {{/if}}
+      {{#if settings.footer_heading_3}}
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="text-white text-left">{{settings.footer_heading_3}}</h6>
+          <ul class="list-unstyled footer-links">
+            {{#if settings.footer_link_text_3_2}}
+              <li><a href="{{settings.footer_link_url_3_2}}" class="opacity-60 text-left">{{settings.footer_link_text_3_2}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_3}}
+              <li><a href="{{settings.footer_link_url_3_3}}" class="opacity-60 text-left">{{settings.footer_link_text_3_3}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_4}}
+              <li><a href="{{settings.footer_link_url_3_4}}" class="opacity-60 text-left">{{settings.footer_link_text_3_4}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_5}}
+              <li><a href="{{settings.footer_link_url_3_5}}" class="opacity-60 text-left">{{settings.footer_link_text_3_5}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_3_6}}
+              <li><a href="{{settings.footer_link_url_3_6}}" class="opacity-60 text-left">{{settings.footer_link_text_3_6}}</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      {{/if}}
+      {{#if settings.footer_heading_4}}
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="text-white text-left">{{settings.footer_heading_4}}</h6>
+          <ul class="list-unstyled footer-links">
+            {{#if settings.footer_link_text_4_2}}
+              <li><a href="{{settings.footer_link_url_4_2}}" class="opacity-60 text-left">{{settings.footer_link_text_4_2}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_4_3}}
+              <li><a href="{{settings.footer_link_url_4_3}}" class="opacity-60 text-left">{{settings.footer_link_text_4_3}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_4_4}}
+              <li><a href="{{settings.footer_link_url_4_4}}" class="opacity-60 text-left">{{settings.footer_link_text_4_4}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_4_5}}
+              <li><a href="{{settings.footer_link_url_4_5}}" class="opacity-60 text-left">{{settings.footer_link_text_4_5}}</a></li>
+            {{/if}}
+            {{#if settings.footer_link_text_4_6}}
+              <li><a href="{{settings.footer_link_url_4_6}}" class="opacity-60 text-left">{{settings.footer_link_text_4_6}}</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+    {{/if}}
+    <div class="mt-8 text-center flex items-center justify-between">
+      <p class="opacity-50">{{settings.copyright_text}}</p>
+      <ul class="list-unstyled footer-links flex flex-col md:flex-row gap-5">
+        {{#if settings.footer_icon_contact_1}}
+          <li><a href="{{settings.footer_icon_contact_1_link}}" class="opacity-50">{{settings.footer_icon_contact_1}}</a></li>
+        {{/if}}
+        {{#if settings.footer_icon_contact_2}}
+          <li><a href="{{settings.footer_icon_contact_2_link}}" class="opacity-50">{{settings.footer_icon_contact_2}}</a></li>
+        {{/if}}
+        {{#if settings.footer_icon_contact_3}}
+          <li><a href="{{settings.footer_icon_contact_3_link}}" class="opacity-50">{{settings.footer_icon_contact_3}}</a></li>
+        {{/if}}
+      </ul>
     </div>
   </div>
+  <div class="nano-blue-bg" style="margin-bottom: -500px"></div>
 </footer>
+
 
 
