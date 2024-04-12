@@ -200,13 +200,14 @@
 
 .bg-brand-grey {
   background-color: {{settings.background_color_grey}};
-<style>
+
+
   /* Popup styles */
   .hidden { display: none; }
   .fixed { position: fixed; top: 0; right: 0; bottom: 0; left: 0; }
   .z-50 { z-index: 50; }
   .bg-opacity-50 { background-color: rgba(0, 0, 0, 0.5); }
-</style>
+
 
 
  </style> 
@@ -222,16 +223,19 @@
           {{search submit=false placeholder="Search for documentation here"}}
         </div>
 
-      <div class="flex justify-center lg:justify-start space-x-4 mt-4">
-        {{#if settings.cta_one_title}}
-        <a href="{{settings.cta_one}}" class="main-btn">{{settings.cta_one_title}}</a>
-        {{/if}}
-        {{#if settings.cta_two_title}}
-        <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
-        {{/if}}
+      
+	<div class="flex justify-center lg:justify-start space-x-4 mt-4">
+  {{#if settings.cta_one_title}}
+    <a href="{{settings.cta_one}}" class="main-btn">{{settings.cta_one_title}}</a>
+  {{/if}}
+  {{#if settings.cta_two_title}}
+    <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
+  {{/if}}
+  <!-- Button to open the popup -->
+  <button id="openPopup" class="main-btn">Watch Video</button>
+</div>
 	      <!-- Button to open the popup -->
 <button id="openPopup" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 focus:outline-none">Watch Video</button>
-
 <!-- Popup (initially hidden) -->
 <div id="videoPopup" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
   <div class="bg-white px-6 py-16 lg:px-8 max-w-3xl mx-auto my-16 rounded-lg text-center">
@@ -512,7 +516,7 @@
 </section>
 <script>
 	//Popup video
-
+<script>
   document.getElementById('openPopup').addEventListener('click', function() {
     document.getElementById('videoPopup').classList.remove('hidden');
   });
@@ -520,14 +524,6 @@
   document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('videoPopup').classList.add('hidden');
   });
-document.getElementById('openPopup').addEventListener('click', function() {
-    console.log("Open button clicked");
-    document.getElementById('videoPopup').classList.remove('hidden');
-});
-
-document.getElementById('closePopup').addEventListener('click', function() {
-    console.log("Close button clicked");
-    document.getElementById('videoPopup').classList.add('hidden');
-});
+</script>
 
 </script>
