@@ -1,9 +1,7 @@
 <!--syling as cant call custom styling via css-->
  <style>
 /*cta styling*/
-   body {
-   	background-color: white !important;
-   }
+
    
    html h2 {
    	box-sizing: border-box;
@@ -70,37 +68,51 @@
    }
    }
    
+/* CTA and other existing styling definitions */
 .btn-cta1{
   background-color: {{settings.brand_color}};
   color: {{settings.brand_text_color}};
   border-radius:22px;
   padding: 10px 18px;
   font-weight: 400;
- }
-
- .btn-cta1:hover{
+}
+.btn-cta1:hover{
   background-color:{{settings.brand_color_dmblue}};
   border-radius:22px;
   padding: 10px 18px;
   font-weight: 400;
- }
-
-  .btn-cta2{
-    background-color:{{settings.brand_color_softwhite}};
-    color:{{settings.brand_color_black}};
-    border-radius:22px;
-    padding: 10px 18px;
-    font-weight: 400;
-  }
-
-  .btn-cta2:hover{
-    background-color:{{settings.brand_color}};
-    color:{{settings.brand_color_softwhite}};
-    border-radius:22px;
-    padding: 10px 18px;
-    font-weight: 400;
-  }
-
+}
+/* Additional styles for lightbox */
+#videoLightbox {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+}
+#videoLightboxContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%; /* Adjust width for better video display */
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 .text-title{
   font-size: 1.25rem;
   font-weight: 600;
@@ -227,25 +239,25 @@
   {{#if settings.cta_two_title}}
     <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
   {{/if}}
- <!-- Button to open the popup -->
-<button id="openPopupBtn" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 focus:outline-none">Watch Video</button>
-
-<!-- Popup (initially hidden) -->
-<div id="videoPopup" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
-    <div class="bg-white px-6 py-16 lg:px-8 max-w-3xl mx-auto my-16 rounded-lg text-center">
-        <p class="text-base font-semibold text-indigo-600">Introducing</p>
-        <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl">{{settings.homepage_video_title}}</h1>
-        <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl">
-            <iframe id="home_page_video" class="w-full h-full rounded-3xl" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="bg-opacity-75 px-4 py-2 text-white text-sm italic">Faucibus commodo massa rhoncus, volutpat.</div>
-        <button id="closePopupBtn" class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 focus:outline-none">Close</button>
-    </div>
-</div>
+ 
 
 
       </div>
     </div>
+		{{! -- HTML content with new video lightbox trigger -- }}
+<div class="container mx-auto">
+  <div class="flex justify-center lg:justify-start space-x-4 mt-4">
+    <button onclick="openLightbox()" class="btn-cta1">Watch Video</button> {{! -- Trigger for video lightbox -- }}
+  </div>
+</div>
+
+{{! -- Lightbox HTML -- }}
+<div id="videoLightbox" onclick="closeLightbox()">
+  <div id="videoLightboxContent" onclick="event.stopPropagation();">
+    <span class="close">&times;</span> {{! -- Close button -- }}
+    <iframe width="100%" height="450" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
  
 <!-- Right Column -->
 <div class="w-full lg:w-1/2 flex justify-center lg:justify-end px-4">
@@ -507,16 +519,17 @@
 </div>
   </div>
 </section>
-
-		<script>
-  document.getElementById('openPopupBtn').addEventListener('click', function() {
-    document.getElementById('videoPopup').classList.remove('hidden');
-  });
-
-  document.getElementById('closePopupBtn').addEventListener('click', function() {
-    document.getElementById('videoPopup').classList.add('hidden');
-  });
+<script>
+// JavaScript for opening and closing the lightbox
+function openLightbox() {
+  document.getElementById('videoLightbox').style.display = 'block';
+}
+function closeLightbox() {
+  document.getElementById('videoLightbox').style.display = 'none';
+}
+// Prevents lightbox from closing when clicking inside the content area
+document.getElementById('videoLightboxContent').addEventListener('click', function(event) {
+  event.stopPropagation();
+});
 </script>
 
-
-</script>
