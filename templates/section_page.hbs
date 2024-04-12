@@ -38,29 +38,37 @@
   {{breadcrumbs}}
 </section>
 
-
-
 <div class="container mx-auto py-4 px-6">
   <div>
     <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">{{section.name}}</h2>
-    <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
+      {{#each section.sections}}
+        <a href="{{url}}" class="leading-6 card-link transform transition duration-300 ease-in-out bg-transparent border border-gray-400 px-4 py-4 shadow-sm hover:bg-white hover:scale-105 hover:shadow-lg hover:border-transparent hover:shadow-outline hover:font-semibold hover:text-black next-card-title rounded-lg">
+       
+      <span class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{this.name}}</span>
+          <p class="text-base card-text-description line-clamp-2">{{this.description}}</p>
+    </a>
+  {{/each}}
+</div>
+    <dl class="mt-5 md:mt-10 space-y-6 divide-y divide-gray-900/10">
       {{#each section.articles}}
       <div class="pt-6">
         <dt>
           <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="article-{{id}}" aria-expanded="false">
             <span class="text-base font-semibold leading-7">{{title}}</span>
             <span class="ml-6 flex h-7 items-center">
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <svg class="{{#if @first}}hidden{{/if}} h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
               </svg>
-              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <svg class="{{#unless @first}}hidden{{/unless}} h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
               </svg>
             </span>
           </button>
         </dt>
-        <dd class="mt-2 pr-12 hidden" id="article-{{id}}">
-          <p class="text-base leading-7 text-gray-600">{{body}}</p>
+        <dd class="mt-2 pr-12 {{#unless @first}}hidden{{/unless}}" id="article-{{id}}">
+          <p class="text-base leading-7 text-gray-600">{{excerpt body}}</p>
+          <a href="{{url}}" class="block my-4 underline">View article here</a>
         </dd>
       </div>
       {{/each}}

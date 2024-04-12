@@ -1,7 +1,7 @@
 {
-  "name": "Anchore Development Theme - Carole 11.04",
+  "name": "Anchore Development Theme - v1",
   "author": "Zendesk",
-  "version": "5.2.3",
+  "version": "5.2.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -57,21 +57,21 @@
           "type": "text",
           "description": "URL for the homepage video",
           "label": "Homepage Video URL",
-          "value": "https://player.vimeo.com/video/347119375"
+          "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
         },
         {
           "identifier": "cta_one_title",
           "type": "text",
           "description": "Title for CTA1",
           "label": "CTA1 Title",
-          "value": "CTA Title"
+          "value": "Docs"
         },
         {
           "identifier": "cta_one",
           "type": "text",
           "description": "URL for the CTA",
           "label": "CTA1 URL",
-          "value": "CTA1 URL"
+          "value": "https://docs.anchore.com/"
         },
         {
           "identifier": "cta_two_title",
@@ -92,28 +92,28 @@
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Requests"
+          "value": ""
         },
         {
           "identifier": "header_one",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         },
         {
           "identifier": "header_two_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Submit a request"
+          "value": ""
         },
         {
           "identifier": "header_two",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         },
         {
           "identifier": "header_three_title",
