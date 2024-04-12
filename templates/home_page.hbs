@@ -234,20 +234,8 @@
 
 
 
-{{#if settings.homepage_video_title}}
-    
-    <div class="bg-white px-6 py-16 lg:px-8">
-  <div class="mx-auto max-w-3xl text-center">
-    <p class="text-base font-semibold text-indigo-600">Introducing</p>
-    <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl text-center">{{settings.homepage_video_title}}</h1>
-    <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl mx-auto">
-      <iframe id="home_page_video" class="w-full h-full rounded-3xl" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
-      <div class="bg-opacity-75 px-4 py-2 text-white text-sm italic">
-        Faucibus commodo massa rhoncus, volutpat.
-      </div>
-  </div>
-</div>
+<!--
+</div>-->
 
 <!--     
  <div class="bg-white px-6 py-16 lg:px-8">
@@ -259,9 +247,9 @@
     </div>
  
   </div>
-</div> -->
+</div> 
 
-  {{/if}}
+  {{/if}}-->
 
 
 
@@ -281,6 +269,20 @@
         <p class="text-base text-sm mt-2">{{settings.tile_1_description}}</p>
       </div>
     </a>
+  {{/if}}
+  {{#if settings.homepage_video_title}}
+    
+    <div class="bg-white px-6 py-16 lg:px-8">
+  <div class="mx-auto max-w-3xl text-center">
+    <p class="text-base font-semibold text-indigo-600">Introducing</p>
+    <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl text-center">{{settings.homepage_video_title}}</h1>
+    <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl mx-auto">
+      <iframe id="home_page_video" class="w-full h-full rounded-3xl" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+      <div class="bg-opacity-75 px-4 py-2 text-white text-sm italic">
+        Faucibus commodo massa rhoncus, volutpat.
+      </div>
+  </div>
   {{/if}}
 
   {{#if settings.tile_2_title}}
