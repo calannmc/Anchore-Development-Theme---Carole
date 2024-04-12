@@ -520,5 +520,14 @@
   document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('videoPopup').classList.add('hidden');
   });
+document.getElementById('openPopup').addEventListener('click', function() {
+    console.log("Open button clicked");
+    document.getElementById('videoPopup').classList.remove('hidden');
+});
+
+document.getElementById('closePopup').addEventListener('click', function() {
+    console.log("Close button clicked");
+    document.getElementById('videoPopup').classList.add('hidden');
+});
 
 </script>
