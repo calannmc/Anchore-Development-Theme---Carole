@@ -251,13 +251,7 @@
   </div>
 </div>
 
-{{! -- Lightbox HTML -- }}
-<div id="videoLightbox" onclick="closeLightbox()">
-  <div id="videoLightboxContent" onclick="event.stopPropagation();">
-    <span class="close">&times;</span> {{! -- Close button -- }}
-    <iframe width="100%" height="450" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  </div>
-</div>
+
  
 <!-- Right Column -->
 <div class="w-full lg:w-1/2 flex justify-center lg:justify-end px-4">
@@ -282,6 +276,13 @@
  
   </div>
 </div> -->
+		{{! -- Lightbox HTML -- }}
+<div id="videoLightbox" onclick="closeLightbox()">
+  <div id="videoLightboxContent" onclick="event.stopPropagation();">
+    <span class="close">&times;</span> {{! -- Close button -- }}
+    <iframe width="100%" height="450" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
 
  
 
