@@ -244,12 +244,7 @@
 
       </div>
     </div>
-		{{! -- HTML content with new video lightbox trigger -- }}
-<div class="container mx-auto">
-  <div class="flex justify-center lg:justify-start space-x-4 mt-4">
-    <button onclick="openLightbox()" class="btn-cta1">Watch Video</button> {{! -- Trigger for video lightbox -- }}
-  </div>
-</div>
+
 
 
  
@@ -262,10 +257,10 @@
 
 
 
-<!--
-</div>-->
 
-<!--     
+</div>
+
+   
  <div class="bg-white px-6 py-16 lg:px-8">
   <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
     <p class="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
@@ -275,7 +270,7 @@
     </div>
  
   </div>
-</div> -->
+</div> 
 		{{! -- Lightbox HTML -- }}
 <div id="videoLightbox" onclick="closeLightbox()">
   <div id="videoLightboxContent" onclick="event.stopPropagation();">
@@ -286,7 +281,12 @@
 
  
 
-
+		{{! -- HTML content with new video lightbox trigger -- }}
+<div class="container mx-auto">
+  <div class="flex justify-center lg:justify-start space-x-4 mt-4">
+    <button onclick="openLightbox()" class="btn-cta1">Watch Video</button> {{! -- Trigger for video lightbox -- }}
+  </div>
+</div>
 
 
 <section class="pb-5 sm:pb-10 bg-no-repeat bg-origin-padding bg-brand-grey">
