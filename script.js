@@ -789,6 +789,17 @@ const categoryData = [
       }
     });
   });
-  
+//Popup video
+
+  <script>
+  document.getElementById('openPopup').addEventListener('click', function() {
+    document.getElementById('videoPopup').classList.remove('hidden');
+  });
+
+  document.getElementById('closePopup').addEventListener('click', function() {
+    document.getElementById('videoPopup').classList.add('hidden');
+  });
+</script>
+
 
 })();
