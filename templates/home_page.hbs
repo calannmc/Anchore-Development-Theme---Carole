@@ -231,25 +231,22 @@
   {{#if settings.cta_two_title}}
     <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
   {{/if}}
-  <!-- Button to open the popup -->
-  <button id="openPopup" class="main-btn">Watch Video</button>
-</div>
-	      <!-- Button to open the popup -->
-<button id="openPopup" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 focus:outline-none">Watch Video</button>
+ <!-- Button to open the popup -->
+<button id="openPopupBtn" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 focus:outline-none">Watch Video</button>
+
 <!-- Popup (initially hidden) -->
 <div id="videoPopup" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
-  <div class="bg-white px-6 py-16 lg:px-8 max-w-3xl mx-auto my-16 rounded-lg text-center">
-    <p class="text-base font-semibold text-indigo-600">Introducing</p>
-    <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl">{{settings.homepage_video_title}}</h1>
-    <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl">
-      <iframe id="home_page_video" class="w-full h-full rounded-3xl" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <div class="bg-white px-6 py-16 lg:px-8 max-w-3xl mx-auto my-16 rounded-lg text-center">
+        <p class="text-base font-semibold text-indigo-600">Introducing</p>
+        <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl">{{settings.homepage_video_title}}</h1>
+        <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl">
+            <iframe id="home_page_video" class="w-full h-full rounded-3xl" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="bg-opacity-75 px-4 py-2 text-white text-sm italic">Faucibus commodo massa rhoncus, volutpat.</div>
+        <button id="closePopupBtn" class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 focus:outline-none">Close</button>
     </div>
-    <div class="bg-opacity-75 px-4 py-2 text-white text-sm italic">
-      Faucibus commodo massa rhoncus, volutpat.
-    </div>
-    <button id="closePopup" class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 focus:outline-none">Close</button>
-  </div>
 </div>
+
 
       </div>
     </div>
@@ -514,16 +511,16 @@
 </div>
   </div>
 </section>
-<script>
-	//Popup video
-<script>
-  document.getElementById('openPopup').addEventListener('click', function() {
+
+		<script>
+  document.getElementById('openPopupBtn').addEventListener('click', function() {
     document.getElementById('videoPopup').classList.remove('hidden');
   });
 
-  document.getElementById('closePopup').addEventListener('click', function() {
+  document.getElementById('closePopupBtn').addEventListener('click', function() {
     document.getElementById('videoPopup').classList.add('hidden');
   });
 </script>
+
 
 </script>
