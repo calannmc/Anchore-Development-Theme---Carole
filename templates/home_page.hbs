@@ -69,22 +69,18 @@
    }
    
 /* CTA and other existing styling definitions */
-.btn-cta1{
+.btn-cta1 {
   background-color: {{settings.brand_color}};
   color: {{settings.brand_text_color}};
-  border-radius:22px;
+  border-radius: 22px;
   padding: 10px 18px;
   font-weight: 400;
 }
-.btn-cta1:hover{
-  background-color:{{settings.brand_color_dmblue}};
-  border-radius:22px;
-  padding: 10px 18px;
-  font-weight: 400;
+.btn-cta1:hover {
+  background-color: {{settings.brand_color_dmblue}};
 }
-/* Additional styles for lightbox */
 #videoLightbox {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -92,14 +88,14 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+  background-color: rgba(0, 0, 0, 0.9);
 }
 #videoLightboxContent {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 70%; /* Adjust width for better video display */
+  width: 70%;
 }
 .close {
   color: #aaa;
@@ -111,13 +107,13 @@
 .close:hover {
   color: #000;
   text-decoration: none;
-  cursor: pointer;
 }
 .text-title{
   font-size: 1.25rem;
   font-weight: 600;
   color: {{settings.brand_color_darkgrey}};
 }
+	 /*cta styling*/
    
    #home_page_video {
    	min-height: 439px; 
@@ -245,7 +241,22 @@
       </div>
     </div>
 
+<div class="anchore-bg p-12">
+  <div class="container mx-auto flex flex-wrap items-center">
+    <!-- Additional content, buttons, etc. -->
 
+    <!-- Trigger for the video lightbox -->
+    <button onclick="openLightbox()" class="btn-cta1">Watch Video</button>
+  </div>
+</div>
+
+<!-- Lightbox HTML -->
+<div id="videoLightbox" onclick="closeLightbox()">
+  <div id="videoLightboxContent" onclick="event.stopPropagation();">
+    <span class="close">&times;</span>
+    <iframe width="100%" height="450" src="{{settings.homepage_video_url}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
 
  
 <!-- Right Column -->
@@ -521,16 +532,14 @@
   </div>
 </section>
 <script>
-// JavaScript for opening and closing the lightbox
+// JavaScript for managing the lightbox
 function openLightbox() {
   document.getElementById('videoLightbox').style.display = 'block';
 }
 function closeLightbox() {
   document.getElementById('videoLightbox').style.display = 'none';
 }
-// Prevents lightbox from closing when clicking inside the content area
 document.getElementById('videoLightboxContent').addEventListener('click', function(event) {
-  event.stopPropagation();
+  event.stopPropagation(); // Prevents the lightbox from closing when clicking inside
 });
 </script>
-
